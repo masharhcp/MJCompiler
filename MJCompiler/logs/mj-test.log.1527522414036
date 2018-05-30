@@ -1,0 +1,125 @@
+INFO  17:44:39,434 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:44:39,528 - #2 program
+INFO  17:44:39,528 - #45 Program
+INFO  17:44:39,528 - #45 int
+INFO  17:44:39,529 - #45 a
+INFO  17:44:39,530 - #5 ;
+INFO  17:44:39,530 - #13 const
+INFO  17:44:39,530 - #45 int
+INFO  17:44:39,530 - #45 c
+INFO  17:44:39,530 - #12 =
+INFO  17:44:39,530 - #41 5
+INFO  17:44:39,531 - #5 ;
+INFO  17:44:39,531 - #45 int
+INFO  17:44:39,531 - #45 l
+INFO  17:44:39,531 - #8 ,
+INFO  17:44:39,531 - #45 d
+INFO  17:44:39,531 - #5 ;
+INFO  17:44:39,531 - #45 char
+INFO  17:44:39,532 - #45 dsfg
+INFO  17:44:39,532 - #5 ;
+INFO  17:44:39,532 - #45 int
+INFO  17:44:39,532 - #45 asf
+INFO  17:44:39,532 - #5 ;
+INFO  17:44:39,532 - #13 const
+INFO  17:44:39,532 - #45 bool
+INFO  17:44:39,532 - #45 bl
+INFO  17:44:39,532 - #12 =
+INFO  17:44:39,532 - #43 true
+INFO  17:44:39,533 - #5 ;
+INFO  17:44:39,533 - #3 {
+INFO  17:44:39,533 - #45 int
+INFO  17:44:39,534 - #45 proba
+INFO  17:44:39,534 - #6 (
+INFO  17:44:39,535 - #45 int
+INFO  17:44:39,535 - #45 nov
+INFO  17:44:39,535 - #7 )
+INFO  17:44:39,535 - #45 int
+INFO  17:44:39,536 - #45 s
+INFO  17:44:39,536 - #14 [
+INFO  17:44:39,536 - #15 ]
+INFO  17:44:39,536 - #5 ;
+INFO  17:44:39,536 - #3 {
+INFO  17:44:39,537 - #45 a
+INFO  17:44:39,537 - #12 =
+INFO  17:44:39,537 - #41 5
+INFO  17:44:39,538 - #5 ;
+INFO  17:44:39,538 - #45 nov
+INFO  17:44:39,538 - #12 =
+INFO  17:44:39,538 - #45 a
+INFO  17:44:39,538 - #5 ;
+INFO  17:44:39,539 - #45 nov
+INFO  17:44:39,539 - #21 ++
+INFO  17:44:39,539 - #5 ;
+INFO  17:44:39,539 - #10 return
+INFO  17:44:39,539 - #45 nov
+INFO  17:44:39,539 - #5 ;
+INFO  17:44:39,539 - #4 }
+INFO  17:44:39,540 - #45 bool
+INFO  17:44:39,541 - #45 s
+INFO  17:44:39,541 - #6 (
+INFO  17:44:39,541 - #45 int
+INFO  17:44:39,541 - #45 m
+INFO  17:44:39,541 - #7 )
+INFO  17:44:39,541 - #45 int
+INFO  17:44:39,541 - #45 e
+INFO  17:44:39,541 - #14 [
+INFO  17:44:39,541 - #15 ]
+INFO  17:44:39,541 - #5 ;
+INFO  17:44:39,541 - #3 {
+INFO  17:44:39,541 - #45 e
+INFO  17:44:39,542 - #12 =
+INFO  17:44:39,542 - #23 new
+INFO  17:44:39,542 - #45 int
+INFO  17:44:39,542 - #14 [
+INFO  17:44:39,542 - #45 m
+INFO  17:44:39,542 - #15 ]
+INFO  17:44:39,542 - #5 ;
+INFO  17:44:39,542 - #10 return
+INFO  17:44:39,542 - #43 true
+INFO  17:44:39,542 - #5 ;
+INFO  17:44:39,543 - #4 }
+INFO  17:44:39,543 - #45 void
+INFO  17:44:39,543 - #45 main
+INFO  17:44:39,543 - #6 (
+INFO  17:44:39,543 - #7 )
+INFO  17:44:39,544 - #3 {
+INFO  17:44:39,544 - #45 d
+INFO  17:44:39,544 - #12 =
+INFO  17:44:39,544 - #41 4
+INFO  17:44:39,544 - #5 ;
+INFO  17:44:39,545 - #9 print
+INFO  17:44:39,545 - #6 (
+INFO  17:44:39,545 - #45 d
+INFO  17:44:39,545 - #7 )
+INFO  17:44:39,546 - #5 ;
+INFO  17:44:39,546 - #4 }
+INFO  17:44:39,546 - #4 }
+INFO  17:44:39,563 - Deklarisana je promenljiva a na liniji 2
+INFO  17:44:39,563 - Deklarisana je konstanta c na liniji 3
+INFO  17:44:39,563 - Deklarisana je promenljiva l na liniji 4
+INFO  17:44:39,563 - Deklarisana je promenljiva d na liniji 4
+INFO  17:44:39,563 - Deklarisana je promenljiva dsfg na liniji 5
+INFO  17:44:39,563 - Deklarisana je promenljiva asf na liniji 6
+INFO  17:44:39,563 - Deklarisana je konstanta bl na liniji 7
+INFO  17:44:39,563 - Obradjuje se funkcija proba na liniji 12
+INFO  17:44:39,563 - Obradjen je formalni parametar nov metode proba na liniji 12
+INFO  17:44:39,564 - Deklarisan je niz s na liniji 12
+INFO  17:44:39,565 - Detektovano lokalne koriscene globalne a na liniji 14
+INFO  17:44:39,565 - Detektovano  koriscene lokalne promenljive nov na liniji 15
+INFO  17:44:39,565 - Detektovano lokalne koriscene globalne a na liniji 15
+INFO  17:44:39,565 - Detektovano  koriscene lokalne promenljive nov na liniji 16
+INFO  17:44:39,565 - Detektovano  koriscene lokalne promenljive nov na liniji 19
+ERROR 17:44:39,565 - Semanticka greska na liniji 12: funcija proba nema return iskaz!
+INFO  17:44:39,565 - Obradjuje se funkcija s na liniji 22
+INFO  17:44:39,565 - Obradjen je formalni parametar m metode s na liniji 22
+INFO  17:44:39,565 - Deklarisan je niz e na liniji 22
+INFO  17:44:39,565 - Detektovano  koriscene lokalne promenljive e na liniji 24
+INFO  17:44:39,565 - Detektovano  koriscene lokalne promenljive m na liniji 24
+INFO  17:44:39,565 - Inicijalizovan niz na liniji  na liniji 24
+ERROR 17:44:39,565 - Semanticka greska na liniji 22: funcija s nema return iskaz!
+INFO  17:44:39,566 - Obradjuje se funkcija main na liniji 28
+INFO  17:44:39,566 - Detektovano lokalne koriscene globalne d na liniji 29
+INFO  17:44:39,566 - Detektovano lokalne koriscene globalne d na liniji 31
+INFO  17:44:39,571 - Print calls = 1
+ERROR 17:44:39,571 - Parsiranje NIJE uspesno zavrseno!

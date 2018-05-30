@@ -1,0 +1,374 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, COMMA, PRINT, RETURN, PLUS, EQUAL,  CONST, LBRACKET, RBRACKET, MINUS, MUL, DIV, MOD, READ, INC, DEC ,  NEW;
+terminal BREAK, ELSE, IF, DO, WHILE, EXTENDS, CONTINUE, DOT, ISEQUAL, NOTEQUAL, GT, GTEQ, LT, LTEQ, AND, OR, CLASS;
+terminal Integer NUMBER ;
+terminal Character CHAR;
+terminal Boolean TRUE, FALSE;
+terminal String IDENT;
+
+
+
+nonterminal MethodDeclList, VarDecl;
+nonterminal StatementList, Statement ;
+
+
+nonterminal NumList, ConstDecl, DesignatorStatement, Decl, VarDeclSeq, ConstDeclSeq, ConstIdent, VarIdent, Matched, Unmatched, ConditionTerms, Condition, ActualParamList, FormalParamDecl, FormalParamList, FormPars, WhileStart, IfStart, IfName, IfElseStart, WhileName, MethodVarDecl, ClassDecl, ExtendsExpr, ArrayClass, ClassMethodVarDecl, ClassMethodVarDeclList;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName, Designator, MethodDecl, MethodTypeName, Addop,Mulop, Realop ; 
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Term, Expr, Factor, VarDeclList, BoolConst, ConstType, ConditionFact, ConditionTerm, ActualPars; 
+
+Program ::= (Program) PROG ProgName:p Decl LBRACE MethodDeclList RBRACE 
+			;
+
+ProgName ::= (ProgName) IDENT:pName 
+			;
+
+
+
+
+Decl ::=	(VarList) VarDecl Decl
+			|
+			(ConstList) ConstDecl Decl
+			|
+			(SingleVar) VarDecl
+			|
+			(SingleConst) ConstDecl
+			|
+			(ClassList)ClassDecl  Decl 
+			|
+			(SingleClass) ClassDecl
+			
+			;
+			
+			
+ConstDeclSeq ::= (ConstDeclarationsSeq)ConstDeclSeq COMMA IDENT:varName EQUAL ConstType:constType
+					|
+					(SingleConstDecl) IDENT:varName1 EQUAL ConstType:ct1 COMMA IDENT:varName2 EQUAL ConstType:constType
+					
+					;
+		  
+ConstDecl ::=  (ConstDeclVar) CONST Type:varType ConstIdent:varName SEMI
+				
+				;
+				
+ConstIdent ::= (ConstSingleDecl)IDENT:varName EQUAL ConstType:constType
+				|
+				(ConstMultipleDecl)ConstDeclSeq
+				|
+				(ConstIdentError)error 
+				{: parser.log.debug("Uspesan oporavak od greske pri deklaraciji konstante."); :}
+				;
+
+			
+				
+BoolConst ::= (BoolTrue)TRUE:t
+			  |
+			  (BoolFalse)FALSE:f
+			  ;
+				
+VarDeclList ::= (VarDeclarations) VarDeclList  VarDecl  
+				|
+				(NoVarDecl)/* epsilon */ 
+				;
+				
+				
+				
+VarDeclSeq ::= (VarDeclSequence) VarDeclSeq COMMA  VarIdent  
+				|
+			   (SingleVarDecl) VarIdent COMMA VarIdent
+ 
+				;				
+			
+VarIdent ::= (VarVariableIdent)IDENT:varName
+			|
+			(VarArrayIdent)IDENT:varName LBRACKET RBRACKET	
+			|
+			(VarIdentError)error
+			{: parser.log.debug("Uspesan oporavak od greske pri deklaraciji varijable varIdent."); :}
+			;
+				
+VarDecl ::= (VarDeclVariable) Type:varType VarIdent SEMI
+
+			|
+			(VarMultipleDecl) Type:varType VarDeclSeq SEMI
+			|
+			(VarDeclError) error SEMI
+			{: parser.log.debug("Uspesan oporavak od greske pri deklaraciji varijable."); :}
+			;
+
+Type ::= (Type) IDENT:typeName 
+		 ;
+
+ClassDecl ::= (ClassDecl)CLASS IDENT ExtendsExpr LBRACE VarDeclList  ClassMethodVarDecl RBRACE
+				;
+
+
+
+
+ClassMethodVarDecl ::= LBRACE MethodDeclList RBRACE
+						|
+						/*epsilon*/
+						;
+						
+
+					
+
+ExtendsExpr ::= (ExtendsExists)EXTENDS Type
+				|
+				(NoExtends)/*epsilon*/
+				;
+
+
+MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
+					|
+					(NoMethodDecl)/* epsilon */
+					;
+
+MethodDecl ::= (MethodDecl) MethodTypeName
+			   LPAREN FormPars  RPAREN VarDeclList LBRACE StatementList RBRACE 
+			   ;
+
+MethodTypeName ::= (MethodTypeName) Type:t IDENT:methName
+
+					;
+
+
+FormPars ::= (FormParams) FormalParamList | (NoFormParam) /* epsilon */ ;
+
+FormalParamList ::= (FormalParamDecls) FormalParamList COMMA FormalParamDecl
+					|
+					(SingleFormalParamDecl) FormalParamDecl
+					;
+					
+FormalParamDecl ::= (FormalParamDeclIdent) Type:varType IDENT:varName
+					|
+					(FormalParamDeclArray) Type:varType IDENT:varName LBRACKET RBRACKET
+					 ;
+
+ActualPars ::= (Actuals) ActualParamList 
+				| 
+			   (NoActuals) /* epsilon */ 
+			   ;
+			   
+ActualParamList ::= (ActualParams) ActualParamList COMMA Expr:expr
+					|
+					(ActualParam) Expr:expr
+					;
+
+
+StatementList ::= (Statements) StatementList Statement 
+					|
+				  (NoStmt) /* epsilon */
+				  ;
+
+
+
+Statement ::= (StmtMatched) Matched
+			  |
+			  (StmtUnmatched) Unmatched
+			  ;
+				
+Matched ::=   (DesignStmt)DesignatorStatement SEMI	
+			  |
+			  (ReadDesignStmt)READ LPAREN Designator:varName RPAREN SEMI
+			  |
+			  (PrintDesignStmt)PRINT LPAREN Expr:expr NumList:list RPAREN SEMI
+			  |
+			  (BreakDesignStmt) BREAK SEMI
+			  |
+			  (ContinueDesignStmt)CONTINUE SEMI
+			  |
+			  (ReturnDesignStmt)RETURN  SEMI
+			  |
+			  (ReturnExprDesignStmt)RETURN Expr:exp SEMI
+			  |
+			  (MatchedIfStmt) IfElseStart ELSE Matched
+			  |
+			  (MatchedWhileStmt) WhileStart LPAREN Condition RPAREN SEMI
+			  |
+			  (MatchedBlock) LBRACE StatementList RBRACE
+			  ;
+	  
+IfElseStart ::= (StartElseIf)IfStart Matched;	  
+IfStart ::=(StartIf) IfName LPAREN  Condition RPAREN ;
+IfName ::= (JustIf)IF ;
+
+WhileStart ::= (StartWhile) WhileName Statement WHILE  ;
+WhileName ::= (JustDo) DO;
+Unmatched ::= (UnmatchedIf)IfStart Statement 
+			  |
+			  (UnmatchedElse) IfElseStart ELSE Unmatched
+			  ;
+			  
+NumList ::= (SingleNumber)NumList COMMA NUMBER
+			|
+			(NoNumber)/*epsilon*/
+			;
+			
+DesignatorStatement ::= (DesStmtExprAsign)Designator:des EQUAL Expr:exp 
+						|
+						(DesStmtExprInc)Designator:des INC
+						|
+						(DesStmtExprDec)Designator:des DEC
+						|
+						(DesStmtFuncCall)Designator:des LPAREN ActualPars RPAREN
+						|
+						(DesStmtError)error 
+						{: parser.log.debug("Uspesan oporavak od greske pri izrazu dodele."); :}
+						;
+
+
+Condition ::= (Conditions)ConditionTerms
+			;
+
+ConditionTerms ::= (MultipleConditionTerms)Condition OR ConditionTerm
+				  |
+				  (SingleConditionTerm)ConditionTerm
+				  ;
+				  
+				  
+ConditionTerm ::= (MultipleConditionFacts)ConditionTerm AND ConditionFact
+					|
+					(SingleConditionFacts)ConditionFact
+					;
+					
+ConditionFact ::= (SingleConditionFact)Expr 
+				  |
+				 (MultipleConditionFact) Expr Realop Expr
+				  ; 
+
+				
+
+Expr ::=  (AddExpr) Expr:te Addop Term:t
+		 |
+		 (TermExpr) Term:t
+		 |
+		 (NegTermExpr) MINUS Term:t
+		 ;
+		 
+
+
+Term ::=(MulTerm) Term:t Mulop Factor:f
+		| 
+		(FactTerm) Factor:f
+		;
+
+Factor ::= (Const) NUMBER:n
+			|
+		   (Char) CHAR:c
+		    |
+		   (Bool) BoolConst:b
+			|
+		   (Var) Designator:d
+		    |
+		   (FuncCall) Designator:func LPAREN ActualPars RPAREN
+		   |
+		   (Exp)LPAREN Expr:e RPAREN
+		   |
+		   (NewArrayClass) NEW Type:t ArrayClass:ac
+		   
+			;
+
+ArrayClass ::=    (NewArray)LBRACKET Expr:e RBRACKET 
+				  |
+				  (NewClass)/*epsilon*/
+				  ;
+
+Designator ::=  (IdentDesignator) IDENT:name 
+				|
+				(ArrayDesignator) IDENT:name LBRACKET Expr RBRACKET
+				|
+				(ClassDesignator) IDENT:className DOT Designator
+				|
+				(ClassArrayDesignator) IDENT:name LBRACKET Expr RBRACKET DOT Designator
+				;
+
+
+				
+
+Addop ::= (Addop) PLUS 
+			|
+			(Minopp) MINUS
+			;
+			
+Mulop ::= (Mulop) MUL 
+			|
+			(Divop) DIV
+			|
+			(Modop) MOD
+			;
+			
+Realop ::= (IsEqualOp) ISEQUAL
+			|
+			(IsNotEqualOp) NOTEQUAL
+			|
+			(GreaterThanOp) GT
+			|
+			(GreaterOrEqualOp) GTEQ
+			|
+			(LessThanOp) LT
+			|
+			(LessOrEqualOp) LTEQ
+			;
+			
+ConstType ::= (CharConst)CHAR:c
+			  |
+			  (NumConst)NUMBER:n
+			  |
+			  (BooleanConst)BoolConst:b
+			  ;

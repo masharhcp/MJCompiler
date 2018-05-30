@@ -1,0 +1,91 @@
+INFO  20:51:30,681 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:51:30,760 - #2 program
+INFO  20:51:30,760 - #45 MJProgram
+INFO  20:51:30,760 - #45 int
+INFO  20:51:30,761 - #45 x
+INFO  20:51:30,762 - #5 ;
+INFO  20:51:30,762 - #45 int
+INFO  20:51:30,763 - #45 y
+INFO  20:51:30,763 - #5 ;
+INFO  20:51:30,763 - #3 {
+INFO  20:51:30,763 - #45 int
+INFO  20:51:30,764 - #45 k
+INFO  20:51:30,764 - #6 (
+INFO  20:51:30,765 - #45 int
+INFO  20:51:30,765 - #45 p
+INFO  20:51:30,765 - #8 ,
+INFO  20:51:30,765 - #45 int
+INFO  20:51:30,766 - #45 x
+INFO  20:51:30,766 - #7 )
+INFO  20:51:30,766 - #45 int
+INFO  20:51:30,767 - #45 c
+INFO  20:51:30,767 - #5 ;
+INFO  20:51:30,767 - #3 {
+INFO  20:51:30,767 - #45 c
+INFO  20:51:30,768 - #12 =
+INFO  20:51:30,768 - #41 1
+INFO  20:51:30,768 - #5 ;
+INFO  20:51:30,768 - #10 return
+INFO  20:51:30,769 - #45 c
+INFO  20:51:30,769 - #11 +
+INFO  20:51:30,769 - #41 2
+INFO  20:51:30,769 - #5 ;
+INFO  20:51:30,770 - #4 }
+INFO  20:51:30,770 - #45 int
+INFO  20:51:30,770 - #45 l
+INFO  20:51:30,770 - #6 (
+INFO  20:51:30,771 - #7 )
+INFO  20:51:30,771 - #3 {
+INFO  20:51:30,771 - #4 }
+INFO  20:51:30,771 - #45 void
+INFO  20:51:30,771 - #45 main
+INFO  20:51:30,771 - #6 (
+INFO  20:51:30,771 - #45 int
+INFO  20:51:30,771 - #45 a
+INFO  20:51:30,771 - #7 )
+INFO  20:51:30,771 - #3 {
+INFO  20:51:30,772 - #45 y
+INFO  20:51:30,772 - #12 =
+INFO  20:51:30,772 - #41 2
+INFO  20:51:30,772 - #5 ;
+INFO  20:51:30,772 - #45 x
+INFO  20:51:30,772 - #12 =
+INFO  20:51:30,772 - #45 y
+INFO  20:51:30,772 - #11 +
+INFO  20:51:30,772 - #41 2
+INFO  20:51:30,772 - #5 ;
+INFO  20:51:30,772 - #45 y
+INFO  20:51:30,772 - #12 =
+INFO  20:51:30,772 - #45 k
+INFO  20:51:30,772 - #6 (
+INFO  20:51:30,777 - #7 )
+INFO  20:51:30,778 - #11 +
+INFO  20:51:30,779 - #41 3
+INFO  20:51:30,779 - #5 ;
+INFO  20:51:30,779 - #9 print
+INFO  20:51:30,779 - #6 (
+INFO  20:51:30,779 - #45 y
+INFO  20:51:30,779 - #7 )
+INFO  20:51:30,780 - #5 ;
+INFO  20:51:30,780 - #10 return
+INFO  20:51:30,780 - #41 0
+INFO  20:51:30,780 - #5 ;
+INFO  20:51:30,780 - #4 }
+INFO  20:51:30,780 - #4 }
+INFO  20:51:30,797 - Deklarisana je promenljiva x na liniji 2
+INFO  20:51:30,797 - Deklarisana je promenljiva y na liniji 2
+INFO  20:51:30,797 - Obradjuje se funkcija k na liniji 5
+INFO  20:51:30,797 - Obradjen je formalni parametar p metode k na liniji 5
+INFO  20:51:30,798 - Obradjen je formalni parametar x metode k na liniji 5
+INFO  20:51:30,799 - Deklarisana je promenljiva c na liniji 5
+INFO  20:51:30,799 - Detektovano koriscene promenljive c na liniji 6
+INFO  20:51:30,799 - Detektovano  koriscenje promenljive c na liniji 6
+INFO  20:51:30,799 - Detektovano koriscene promenljive c na liniji 7
+INFO  20:51:30,799 - Obradjuje se funkcija l na liniji 10
+INFO  20:51:30,799 - Obradjuje se funkcija main na liniji 14
+INFO  20:51:30,799 - Obradjen je formalni parametar a metode main na liniji 14
+ERROR 20:51:30,799 - Greska na liniji 14 : Main metoda ne sme imati formalne parametre 
+INFO  20:51:30,800 - Detektovano koriscene promenljive y na liniji 15
+INFO  20:51:30,800 - Detektovano  koriscenje promenljive y na liniji 15
+INFO  20:51:30,800 - Detektovano koriscene promenljive x na liniji 16
+INFO  20:51:30,800 - Detektovano koriscene promenljive y na liniji 16

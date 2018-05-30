@@ -1,0 +1,39 @@
+INFO  14:01:28,840 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:01:28,885 - #2 program
+INFO  14:01:28,885 - #28 MJProgram
+INFO  14:01:28,885 - #28 int
+INFO  14:01:28,886 - #28 xa
+INFO  14:01:28,887 - #5 ;
+INFO  14:01:28,887 - #28 int
+INFO  14:01:28,888 - #28 ya
+INFO  14:01:28,888 - #5 ;
+INFO  14:01:28,888 - #14 const
+INFO  14:01:28,888 - #28 int
+INFO  14:01:28,888 - #28 ap
+INFO  14:01:28,888 - #12 =
+INFO  14:01:28,889 - #27 4
+INFO  14:01:28,889 - #5 ;
+INFO  14:01:28,889 - #28 int
+INFO  14:01:28,890 - #28 aa
+INFO  14:01:28,890 - #15 [
+INFO  14:01:28,890 - #16 ]
+INFO  14:01:28,891 - #5 ;
+INFO  14:01:28,891 - #3 {
+INFO  14:01:28,891 - #28 int
+INFO  14:01:28,892 - #28 k
+INFO  14:01:28,892 - #6 (
+INFO  14:01:28,894 - #7 )
+INFO  14:01:28,894 - #28 int
+INFO  14:01:28,895 - #28 c
+INFO  14:01:28,895 - #5 ;
+INFO  14:01:28,895 - #3 {
+INFO  14:01:28,895 - #28 c
+INFO  14:01:28,896 - #12 =
+INFO  14:01:28,896 - #27 1
+INFO  14:01:28,897 - #5 ;
+INFO  14:01:28,897 - #4 }
+ERROR 14:01:28,897 - 
+Sintaksna greska na liniji 11
+ERROR 14:01:28,897 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11
+INFO  14:01:28,909 - Print calls = 0
+ERROR 14:01:28,909 - Parsiranje NIJE uspesno zavrseno!

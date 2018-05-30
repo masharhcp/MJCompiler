@@ -1,0 +1,10 @@
+INFO  14:27:16,257 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:27:16,284 - #2 program
+INFO  14:27:16,284 - #15 MJProgram
+INFO  14:27:16,284 - #15 int
+INFO  14:27:16,285 - #28 x
+ERROR 14:27:16,285 - 
+Sintaksna greska na liniji 2
+ERROR 14:27:16,285 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2
+INFO  14:27:16,299 - Print calls = 0
+ERROR 14:27:16,300 - Parsiranje NIJE uspesno zavrseno!

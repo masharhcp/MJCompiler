@@ -1,0 +1,97 @@
+INFO  14:38:49,120 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:38:49,194 - #2 program
+INFO  14:38:49,194 - #45 test301
+INFO  14:38:49,194 - #13 const
+INFO  14:38:49,195 - #45 int
+INFO  14:38:49,195 - #45 jedan
+INFO  14:38:49,196 - #12 =
+INFO  14:38:49,196 - #41 1
+INFO  14:38:49,196 - #5 ;
+INFO  14:38:49,196 - #13 const
+INFO  14:38:49,196 - #45 int
+INFO  14:38:49,196 - #45 pet
+INFO  14:38:49,197 - #12 =
+INFO  14:38:49,197 - #41 5
+INFO  14:38:49,197 - #5 ;
+INFO  14:38:49,197 - #45 int
+INFO  14:38:49,197 - #45 niz
+INFO  14:38:49,197 - #14 [
+INFO  14:38:49,197 - #15 ]
+INFO  14:38:49,197 - #5 ;
+INFO  14:38:49,197 - #45 char
+INFO  14:38:49,198 - #45 nizch
+INFO  14:38:49,198 - #14 [
+INFO  14:38:49,198 - #15 ]
+INFO  14:38:49,198 - #5 ;
+INFO  14:38:49,198 - #3 {
+INFO  14:38:49,198 - #45 void
+INFO  14:38:49,199 - #45 main
+INFO  14:38:49,199 - #6 (
+INFO  14:38:49,200 - #7 )
+INFO  14:38:49,201 - #45 int
+INFO  14:38:49,201 - #45 bodovi
+INFO  14:38:49,201 - #5 ;
+INFO  14:38:49,202 - #3 {
+INFO  14:38:49,202 - #45 bodovi
+INFO  14:38:49,202 - #12 =
+INFO  14:38:49,203 - #41 0
+INFO  14:38:49,203 - #5 ;
+INFO  14:38:49,203 - #45 bodovi
+INFO  14:38:49,203 - #21 ++
+INFO  14:38:49,203 - #5 ;
+INFO  14:38:49,204 - #45 bodovi
+INFO  14:38:49,204 - #12 =
+INFO  14:38:49,204 - #45 bodovi
+INFO  14:38:49,204 - #11 +
+INFO  14:38:49,204 - #45 jedan
+INFO  14:38:49,204 - #5 ;
+INFO  14:38:49,205 - #45 bodovi
+INFO  14:38:49,205 - #12 =
+INFO  14:38:49,205 - #45 bodovi
+INFO  14:38:49,205 - #17 *
+INFO  14:38:49,205 - #45 pet
+INFO  14:38:49,206 - #5 ;
+INFO  14:38:49,206 - #45 bodovi
+INFO  14:38:49,206 - #22 --
+INFO  14:38:49,206 - #5 ;
+INFO  14:38:49,206 - #9 print
+INFO  14:38:49,207 - #6 (
+INFO  14:38:49,207 - #45 bodovi
+INFO  14:38:49,207 - #7 )
+INFO  14:38:49,214 - #5 ;
+INFO  14:38:49,214 - #45 niz
+INFO  14:38:49,214 - #12 =
+INFO  14:38:49,214 - #23 new
+INFO  14:38:49,214 - #45 int
+INFO  14:38:49,214 - #14 [
+INFO  14:38:49,215 - #41 2
+INFO  14:38:49,215 - #15 ]
+INFO  14:38:49,215 - #5 ;
+INFO  14:38:49,215 - #4 }
+INFO  14:38:49,215 - #4 }
+INFO  14:38:49,234 - Deklarisana je konstanta jedan na liniji5 na liniji 5
+INFO  14:38:49,234 - Deklarisana je konstanta pet na liniji6 na liniji 6
+INFO  14:38:49,234 - Deklarisan je niz niz8 na liniji 8
+INFO  14:38:49,234 - Deklarisan je niz nizch10 na liniji 10
+INFO  14:38:49,235 - Obradjuje se funkcija main na liniji 13
+INFO  14:38:49,235 - Deklarisana je promenljiva bodovi na liniji 13
+INFO  14:38:49,235 - Detektovano koriscene promenljive bodovi na liniji 16
+INFO  14:38:49,236 - Detektovano koriscenje promenljive bodovi na liniji 16
+INFO  14:38:49,236 - Detektovano koriscene promenljive bodovi na liniji 17
+INFO  14:38:49,236 - Detektovano  inkrementiranje promenljive bodovi na liniji 17
+INFO  14:38:49,236 - Detektovano koriscene promenljive bodovi na liniji 18
+INFO  14:38:49,236 - Detektovano koriscene promenljive bodovi na liniji 18
+INFO  14:38:49,236 - Detektovano koriscene promenljive jedan na liniji 18
+INFO  14:38:49,236 - Detektovano koriscenje promenljive bodovi na liniji 18
+INFO  14:38:49,236 - Detektovano koriscene promenljive bodovi na liniji 19
+INFO  14:38:49,236 - Detektovano koriscene promenljive bodovi na liniji 19
+INFO  14:38:49,236 - Detektovano koriscene promenljive pet na liniji 19
+INFO  14:38:49,236 - Detektovano koriscenje promenljive bodovi na liniji 19
+INFO  14:38:49,236 - Detektovano koriscene promenljive bodovi na liniji 20
+INFO  14:38:49,236 - Detektovano  dekrementiranje promenljive bodovi na liniji 20
+INFO  14:38:49,236 - Detektovano koriscene promenljive bodovi na liniji 21
+INFO  14:38:49,236 - Detektovano koriscene promenljive niz na liniji 24
+INFO  14:38:49,237 - Inicijalizovan niz na liniji  na liniji 24
+ERROR 14:38:49,237 - Greska na liniji 24 izraz sa desne strane mora biti kompatibilan po tipu sa promenljivom kojoj se dodeljuje.
+INFO  14:38:49,237 - Print calls = 1
+ERROR 14:38:49,238 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,243 @@
+INFO  11:14:27,661 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  11:14:27,723 - #2 program
+INFO  11:14:27,724 - #45 sintaksa_greska
+INFO  11:14:27,724 - #45 int
+INFO  11:14:27,724 - #8 ,
+ERROR 11:14:27,725 - 
+Sintaksna greska na liniji 3
+INFO  11:14:27,725 - #8 ,
+INFO  11:14:27,725 - #45 a
+INFO  11:14:27,725 - #5 ;
+INFO  11:14:27,726 - #45 int
+DEBUG 11:14:27,726 - Uspesan oporavak od greske pri deklaraciji varijable varIdent.
+INFO  11:14:27,727 - #45 b
+INFO  11:14:27,727 - #8 ,
+INFO  11:14:27,727 - #31 .
+ERROR 11:14:27,727 - 
+Sintaksna greska na liniji 4
+INFO  11:14:27,727 - #5 ;
+INFO  11:14:27,727 - #45 bool
+INFO  11:14:27,727 - #45 b
+INFO  11:14:27,752 - #5 ;
+DEBUG 11:14:27,752 - Uspesan oporavak od greske pri deklaraciji varijable varIdent.
+INFO  11:14:27,752 - #13 const
+INFO  11:14:27,752 - #45 int
+INFO  11:14:27,752 - #45 konstanta
+INFO  11:14:27,752 - #12 =
+INFO  11:14:27,753 - #41 20
+INFO  11:14:27,753 - #5 ;
+INFO  11:14:27,753 - #45 int
+INFO  11:14:27,753 - #45 niz
+INFO  11:14:27,753 - #14 [
+INFO  11:14:27,753 - #15 ]
+INFO  11:14:27,753 - #5 ;
+INFO  11:14:27,753 - #3 {
+INFO  11:14:27,754 - #45 int
+INFO  11:14:27,754 - #45 sub
+INFO  11:14:27,754 - #6 (
+INFO  11:14:27,755 - #45 int
+INFO  11:14:27,755 - #45 prom1
+INFO  11:14:27,755 - #8 ,
+INFO  11:14:27,755 - #45 int
+INFO  11:14:27,755 - #45 prom2
+INFO  11:14:27,756 - #7 )
+INFO  11:14:27,756 - #3 {
+INFO  11:14:27,756 - #45 a
+INFO  11:14:27,757 - #12 =
+INFO  11:14:27,757 - #45 prom1
+INFO  11:14:27,757 - #16 -
+INFO  11:14:27,757 - #45 prom2
+INFO  11:14:27,758 - #5 ;
+INFO  11:14:27,759 - #10 return
+INFO  11:14:27,759 - #45 a
+INFO  11:14:27,759 - #5 ;
+INFO  11:14:27,759 - #4 }
+INFO  11:14:27,759 - #45 void
+INFO  11:14:27,760 - #45 main
+INFO  11:14:27,760 - #6 (
+INFO  11:14:27,760 - #7 )
+INFO  11:14:27,761 - #45 int
+INFO  11:14:27,761 - #45 d
+INFO  11:14:27,761 - #8 ,
+INFO  11:14:27,761 - #45 k
+INFO  11:14:27,766 - #8 ,
+INFO  11:14:27,766 - #45 p
+INFO  11:14:27,766 - #5 ;
+INFO  11:14:27,767 - #45 char
+INFO  11:14:27,767 - #45 c
+INFO  11:14:27,767 - #5 ;
+INFO  11:14:27,767 - #3 {
+INFO  11:14:27,767 - #45 d
+INFO  11:14:27,767 - #12 =
+INFO  11:14:27,767 - #45 a
+INFO  11:14:27,767 - #5 ;
+INFO  11:14:27,767 - #45 a
+INFO  11:14:27,767 - #21 ++
+INFO  11:14:27,767 - #5 ;
+INFO  11:14:27,767 - #45 a
+INFO  11:14:27,768 - #12 =
+INFO  11:14:27,768 - #45 a
+INFO  11:14:27,768 - #17 *
+INFO  11:14:27,768 - #41 3
+INFO  11:14:27,768 - #5 ;
+INFO  11:14:27,769 - #9 print
+INFO  11:14:27,769 - #6 (
+INFO  11:14:27,769 - #45 a
+INFO  11:14:27,769 - #8 ,
+INFO  11:14:27,769 - #41 5
+INFO  11:14:27,769 - #7 )
+INFO  11:14:27,770 - #5 ;
+INFO  11:14:27,770 - #45 d
+INFO  11:14:27,770 - #12 =
+INFO  11:14:27,770 - #45 a
+INFO  11:14:27,770 - #5 ;
+INFO  11:14:27,770 - #45 d
+INFO  11:14:27,770 - #22 --
+INFO  11:14:27,770 - #5 ;
+INFO  11:14:27,770 - #9 print
+INFO  11:14:27,770 - #6 (
+INFO  11:14:27,770 - #45 d
+INFO  11:14:27,771 - #8 ,
+INFO  11:14:27,771 - #41 5
+INFO  11:14:27,771 - #7 )
+INFO  11:14:27,771 - #5 ;
+INFO  11:14:27,771 - #20 read
+INFO  11:14:27,771 - #6 (
+INFO  11:14:27,771 - #45 k
+INFO  11:14:27,771 - #7 )
+INFO  11:14:27,771 - #5 ;
+INFO  11:14:27,771 - #45 d
+INFO  11:14:27,771 - #12 =
+INFO  11:14:27,771 - #45 d
+INFO  11:14:27,771 - #11 +
+INFO  11:14:27,771 - #45 k
+INFO  11:14:27,771 - #5 ;
+INFO  11:14:27,771 - #9 print
+INFO  11:14:27,771 - #6 (
+INFO  11:14:27,771 - #45 d
+INFO  11:14:27,771 - #8 ,
+INFO  11:14:27,772 - #41 5
+INFO  11:14:27,772 - #7 )
+INFO  11:14:27,772 - #5 ;
+INFO  11:14:27,772 - #20 read
+INFO  11:14:27,772 - #6 (
+INFO  11:14:27,772 - #45 c
+INFO  11:14:27,772 - #7 )
+INFO  11:14:27,772 - #5 ;
+INFO  11:14:27,772 - #9 print
+INFO  11:14:27,772 - #6 (
+INFO  11:14:27,772 - #45 c
+INFO  11:14:27,772 - #7 )
+INFO  11:14:27,772 - #5 ;
+INFO  11:14:27,772 - #45 c
+INFO  11:14:27,772 - #12 =
+INFO  11:14:27,772 - #45 chr
+INFO  11:14:27,772 - #6 (
+INFO  11:14:27,772 - #41 46
+INFO  11:14:27,772 - #7 )
+INFO  11:14:27,773 - #5 ;
+INFO  11:14:29,494 - #9 print
+INFO  11:14:29,494 - #6 (
+INFO  11:14:29,495 - #45 c
+INFO  11:14:29,495 - #7 )
+INFO  11:14:29,495 - #5 ;
+INFO  11:14:29,495 - #45 p
+INFO  11:14:29,495 - #12 =
+INFO  11:14:29,495 - #45 sub
+INFO  11:14:29,495 - #6 (
+INFO  11:14:29,495 - #45 d
+INFO  11:14:29,495 - #8 ,
+INFO  11:14:29,495 - #45 a
+INFO  11:14:29,495 - #7 )
+INFO  11:14:29,495 - #5 ;
+INFO  11:14:29,495 - #9 print
+INFO  11:14:29,496 - #6 (
+INFO  11:14:29,496 - #45 p
+INFO  11:14:29,496 - #7 )
+INFO  11:14:29,496 - #5 ;
+INFO  11:14:29,496 - #45 niz
+INFO  11:14:29,496 - #12 =
+INFO  11:14:29,496 - #23 new
+INFO  11:14:29,496 - #45 int
+INFO  11:14:29,496 - #14 [
+INFO  11:14:29,496 - #41 3
+INFO  11:14:29,496 - #15 ]
+INFO  11:14:29,496 - #5 ;
+INFO  11:14:29,497 - #45 niz
+INFO  11:14:29,497 - #14 [
+INFO  11:14:29,497 - #41 0
+INFO  11:14:29,497 - #15 ]
+INFO  11:14:29,497 - #12 =
+INFO  11:14:29,497 - #45 d
+INFO  11:14:29,497 - #5 ;
+INFO  11:14:29,497 - #45 niz
+INFO  11:14:29,497 - #14 [
+INFO  11:14:29,497 - #41 1
+INFO  11:14:29,497 - #15 ]
+INFO  11:14:29,497 - #12 =
+INFO  11:14:29,497 - #45 a
+INFO  11:14:29,497 - #5 ;
+INFO  11:14:29,498 - #45 niz
+INFO  11:14:29,498 - #14 [
+INFO  11:14:29,498 - #41 2
+INFO  11:14:29,498 - #15 ]
+INFO  11:14:29,498 - #12 =
+INFO  11:14:29,498 - #45 p
+INFO  11:14:29,498 - #5 ;
+INFO  11:14:29,498 - #4 }
+INFO  11:14:29,498 - #4 }
+INFO  11:14:29,512 - Deklarisana je promenljiva a na liniji 3
+INFO  11:14:29,512 - Deklarisana je promenljiva b na liniji 4
+ERROR 11:14:29,512 - Greska na liniji 5 : Promenljiva koja b vec postoji u trenutnon Scope-u
+INFO  11:14:29,512 - Deklarisana je konstanta konstanta na liniji 6
+INFO  11:14:29,512 - Deklarisan je niz niz na liniji 8
+INFO  11:14:29,512 - Obradjuje se funkcija sub na liniji 11
+INFO  11:14:29,513 - Obradjen je formalni parametar prom1 metode sub na liniji 11
+INFO  11:14:29,513 - Obradjen je formalni parametar prom2 metode sub na liniji 11
+INFO  11:14:29,514 - Detektovano lokalne koriscene globalne a na liniji 12
+INFO  11:14:29,514 - Detektovano  koriscene lokalne promenljive prom1 na liniji 12
+INFO  11:14:29,514 - Detektovano  koriscene lokalne promenljive prom2 na liniji 12
+INFO  11:14:29,514 - Detektovano lokalne koriscene globalne a na liniji 13
+ERROR 11:14:29,514 - Semanticka greska na liniji 11: funcija sub nema return iskaz!
+INFO  11:14:29,514 - Obradjuje se funkcija main na liniji 18
+INFO  11:14:29,514 - Deklarisana je promenljiva d na liniji 18
+INFO  11:14:29,514 - Deklarisana je promenljiva k na liniji 18
+INFO  11:14:29,514 - Deklarisana je promenljiva p na liniji 18
+INFO  11:14:29,514 - Deklarisana je promenljiva c na liniji 18
+INFO  11:14:29,514 - Detektovano  koriscene lokalne promenljive d na liniji 19
+INFO  11:14:29,514 - Detektovano lokalne koriscene globalne a na liniji 19
+INFO  11:14:29,514 - Detektovano lokalne koriscene globalne a na liniji 20
+INFO  11:14:29,514 - Detektovano lokalne koriscene globalne a na liniji 21
+INFO  11:14:29,514 - Detektovano lokalne koriscene globalne a na liniji 21
+INFO  11:14:29,515 - Detektovano lokalne koriscene globalne a na liniji 22
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive d na liniji 23
+INFO  11:14:29,515 - Detektovano lokalne koriscene globalne a na liniji 23
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive d na liniji 24
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive d na liniji 25
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive k na liniji 26
+INFO  11:14:29,515 - Izvrsava se nardeba read na liniji 26
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive d na liniji 27
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive d na liniji 27
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive k na liniji 27
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive d na liniji 28
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive c na liniji 29
+INFO  11:14:29,515 - Izvrsava se nardeba read na liniji 29
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive c na liniji 30
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive c na liniji 31
+INFO  11:14:29,515 - Pronadjen poziv funkcije chr na liniji 31
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive c na liniji 32
+INFO  11:14:29,515 - Detektovano  koriscene lokalne promenljive p na liniji 33
+INFO  11:14:29,516 - Detektovano  koriscene lokalne promenljive d na liniji 33
+INFO  11:14:29,516 - Detektovano lokalne koriscene globalne a na liniji 33
+INFO  11:14:29,516 - Pronadjen poziv funkcije sub na liniji 33
+INFO  11:14:29,516 - Detektovano  koriscene lokalne promenljive p na liniji 34
+INFO  11:14:29,516 - Detektovano lokalne koriscene globalne niz na liniji 35
+INFO  11:14:29,516 - Inicijalizovan niz na liniji  na liniji 35
+INFO  11:14:29,516 - Detektovano koriscene niza niz na liniji 36
+INFO  11:14:29,516 - Detektovano  koriscene lokalne promenljive d na liniji 36
+INFO  11:14:29,516 - Detektovano koriscene niza niz na liniji 37
+INFO  11:14:29,516 - Detektovano lokalne koriscene globalne a na liniji 37
+INFO  11:14:29,516 - Detektovano koriscene niza niz na liniji 38
+INFO  11:14:29,516 - Detektovano  koriscene lokalne promenljive p na liniji 38
+INFO  11:14:29,516 - Print calls = 6
+ERROR 11:14:29,517 - Parsiranje NIJE uspesno zavrseno!

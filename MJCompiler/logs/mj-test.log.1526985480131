@@ -1,0 +1,36 @@
+INFO  12:37:39,810 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:37:39,841 - #2 program
+INFO  12:37:39,841 - #28 test301
+INFO  12:37:39,841 - #14 const
+INFO  12:37:39,841 - #28 int
+INFO  12:37:39,841 - #28 jedan
+INFO  12:37:39,841 - #12 =
+INFO  12:37:39,841 - #27 1
+INFO  12:37:39,841 - #8 ,
+INFO  12:37:39,841 - #28 dva
+INFO  12:37:39,841 - #12 =
+INFO  12:37:39,841 - #27 2
+INFO  12:37:39,841 - #17 -
+ERROR 12:37:39,841 - 
+Sintaksna greska na liniji 5
+INFO  12:37:39,841 - #5 ;
+INFO  12:37:39,841 - #14 const
+INFO  12:37:39,841 - #28 int
+INFO  12:37:39,841 - #28 pet
+DEBUG 12:37:39,841 - Uspesan oporavak od greske pri deklaraciji konstante.
+INFO  12:37:39,857 - #12 =
+INFO  12:37:39,857 - #27 5
+INFO  12:37:39,857 - #17 -
+ERROR 12:37:39,857 - 
+Sintaksna greska na liniji 6
+INFO  12:37:39,857 - #5 ;
+INFO  12:37:39,857 - #28 int
+INFO  12:37:39,857 - #28 cetiri
+INFO  12:37:39,857 - #17 -
+DEBUG 12:37:39,857 - Uspesan oporavak od greske pri deklaraciji konstante.
+ERROR 12:37:39,857 - 
+Sintaksna greska na liniji 7
+INFO  12:37:39,857 - #5 ;
+INFO  12:37:39,857 - #28 int
+INFO  12:37:39,857 - #28 niz
+INFO  12:37:39,857 - #15 [

@@ -1,0 +1,153 @@
+INFO  13:19:52,838 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  13:19:52,885 - #2 program
+INFO  13:19:52,885 - #45 Program
+INFO  13:19:52,885 - #45 int
+INFO  13:19:52,885 - #45 a
+INFO  13:19:52,885 - #8 ,
+INFO  13:19:52,885 - #45 b
+INFO  13:19:52,885 - #5 ;
+INFO  13:19:52,885 - #13 const
+INFO  13:19:52,885 - #45 int
+INFO  13:19:52,885 - #45 c
+INFO  13:19:52,885 - #12 =
+INFO  13:19:52,885 - #41 5
+INFO  13:19:52,885 - #5 ;
+INFO  13:19:52,885 - #45 char
+INFO  13:19:52,885 - #45 o
+INFO  13:19:52,885 - #5 ;
+INFO  13:19:52,885 - #45 bool
+INFO  13:19:52,885 - #45 l
+INFO  13:19:52,885 - #8 ,
+INFO  13:19:52,885 - #45 d
+INFO  13:19:52,885 - #5 ;
+INFO  13:19:52,885 - #45 char
+INFO  13:19:52,885 - #45 dsfg
+INFO  13:19:52,885 - #5 ;
+INFO  13:19:52,900 - #45 int
+INFO  13:19:52,900 - #45 asf
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #13 const
+INFO  13:19:52,900 - #45 bool
+INFO  13:19:52,900 - #45 bl
+INFO  13:19:52,900 - #12 =
+INFO  13:19:52,900 - #43 true
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #3 {
+INFO  13:19:52,900 - #45 int
+INFO  13:19:52,900 - #45 proba
+INFO  13:19:52,900 - #6 (
+INFO  13:19:52,900 - #45 int
+INFO  13:19:52,900 - #45 nov
+INFO  13:19:52,900 - #8 ,
+INFO  13:19:52,900 - #45 int
+INFO  13:19:52,900 - #45 masa
+INFO  13:19:52,900 - #7 )
+INFO  13:19:52,900 - #45 int
+INFO  13:19:52,900 - #45 s
+INFO  13:19:52,900 - #14 [
+INFO  13:19:52,900 - #15 ]
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #3 {
+INFO  13:19:52,900 - #45 a
+INFO  13:19:52,900 - #12 =
+INFO  13:19:52,900 - #41 5
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #45 nov
+INFO  13:19:52,900 - #12 =
+INFO  13:19:52,900 - #45 a
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #45 nov
+INFO  13:19:52,900 - #21 ++
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #10 return
+INFO  13:19:52,900 - #45 nov
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #4 }
+INFO  13:19:52,900 - #45 bool
+INFO  13:19:52,900 - #45 s
+INFO  13:19:52,900 - #6 (
+INFO  13:19:52,900 - #45 int
+INFO  13:19:52,900 - #45 m
+INFO  13:19:52,900 - #7 )
+INFO  13:19:52,900 - #45 int
+INFO  13:19:52,900 - #45 e
+INFO  13:19:52,900 - #14 [
+INFO  13:19:52,900 - #15 ]
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #3 {
+INFO  13:19:52,900 - #45 e
+INFO  13:19:52,900 - #12 =
+INFO  13:19:52,900 - #23 new
+INFO  13:19:52,900 - #45 int
+INFO  13:19:52,900 - #14 [
+INFO  13:19:52,900 - #45 m
+INFO  13:19:52,900 - #15 ]
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #10 return
+INFO  13:19:52,900 - #43 true
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #4 }
+INFO  13:19:52,900 - #45 void
+INFO  13:19:52,900 - #45 main
+INFO  13:19:52,900 - #6 (
+INFO  13:19:52,900 - #7 )
+INFO  13:19:52,900 - #3 {
+INFO  13:19:52,900 - #45 d
+INFO  13:19:52,900 - #12 =
+INFO  13:19:52,900 - #43 true
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #45 asf
+INFO  13:19:52,900 - #12 =
+INFO  13:19:52,900 - #45 proba
+INFO  13:19:52,900 - #6 (
+INFO  13:19:52,900 - #45 a
+INFO  13:19:52,900 - #8 ,
+INFO  13:19:52,900 - #45 b
+INFO  13:19:52,900 - #7 )
+INFO  13:19:52,900 - #11 +
+INFO  13:19:52,900 - #45 a
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #9 print
+INFO  13:19:52,900 - #6 (
+INFO  13:19:52,900 - #45 d
+INFO  13:19:52,900 - #7 )
+INFO  13:19:52,900 - #5 ;
+INFO  13:19:52,900 - #4 }
+INFO  13:19:52,900 - #4 }
+INFO  13:19:52,916 - Deklarisana je promenljiva a na liniji 2
+INFO  13:19:52,916 - Deklarisana je promenljiva b na liniji 2
+INFO  13:19:52,916 - Deklarisana je konstanta c na liniji 3
+INFO  13:19:52,916 - Deklarisana je promenljiva o na liniji 4
+INFO  13:19:52,916 - Deklarisana je promenljiva l na liniji 5
+INFO  13:19:52,916 - Deklarisana je promenljiva d na liniji 5
+INFO  13:19:52,916 - Deklarisana je promenljiva dsfg na liniji 6
+INFO  13:19:52,931 - Deklarisana je promenljiva asf na liniji 7
+INFO  13:19:52,931 - Deklarisana je konstanta bl na liniji 8
+INFO  13:19:52,931 - Obradjuje se funkcija proba na liniji 13
+INFO  13:19:52,931 - Obradjen je formalni parametar nov metode proba na liniji 13
+INFO  13:19:53,392 - Obradjen je formalni parametar masa metode proba na liniji 13
+INFO  13:19:53,392 - Deklarisan je niz s na liniji 13
+INFO  13:19:53,392 - Detektovano  koriscene globalne promenljive a na liniji 15
+INFO  13:19:53,392 - Detektovano  koriscene lokalne promenljive nov na liniji 16
+INFO  13:19:53,392 - Detektovano  koriscene globalne promenljive a na liniji 16
+INFO  13:19:53,392 - Detektovano  koriscene lokalne promenljive nov na liniji 17
+INFO  13:19:53,392 - Detektovano  koriscene lokalne promenljive nov na liniji 19
+INFO  13:19:53,392 - Obradjuje se funkcija s na liniji 23
+INFO  13:19:53,392 - Obradjen je formalni parametar m metode s na liniji 23
+INFO  13:19:53,392 - Deklarisan je niz e na liniji 23
+INFO  13:19:53,392 - Detektovano  koriscene lokalne promenljive e na liniji 25
+INFO  13:19:53,392 - Detektovano  koriscene lokalne promenljive m na liniji 25
+INFO  13:19:53,392 - Inicijalizovan niz na liniji  na liniji 25
+INFO  13:19:53,392 - Obradjuje se funkcija main na liniji 29
+INFO  13:19:53,392 - Detektovano  koriscene globalne promenljive d na liniji 30
+INFO  13:19:53,392 - Detektovano  koriscene globalne promenljive asf na liniji 31
+INFO  13:19:53,392 - Detektovano  koriscene globalne promenljive a na liniji 31
+INFO  13:19:53,392 - Detektovano  koriscene globalne promenljive b na liniji 31
+INFO  13:19:53,392 - Detektovan poziv funkcije proba na liniji 31
+INFO  13:19:53,392 - Detektovano  koriscene globalne promenljive a na liniji 31
+ERROR 13:19:53,392 - Greska na liniji 31 nekompatibilni tipovi podataka
+ERROR 13:19:53,392 - Greska na liniji 31 tip operanda mora biti int.
+ERROR 13:19:53,392 - Greska na liniji 31 izraz sa desne strane mora biti kompatibilan po tipu sa promenljivom kojoj se dodeljuje.
+INFO  13:19:53,392 - Detektovano  koriscene globalne promenljive d na liniji 33
+INFO  13:19:53,392 - Print calls = 1
+ERROR 13:19:53,408 - Parsiranje NIJE uspesno zavrseno!

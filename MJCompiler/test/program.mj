@@ -1,0 +1,33 @@
+program Program
+int a, b;
+const int c = 5;
+char o;
+bool l,d;
+char dsfg;
+int asf;
+const bool bl = true;
+
+
+
+{
+	int proba(int nov, int masa) int s[];
+	{
+		a = 5;
+		nov = a;
+		nov++;
+
+	return nov;
+
+	}
+	
+	bool s(int m) int e[];
+	{
+		e = new int[m];
+		return true;
+	}
+	
+	void main() {
+		a = ord(o)+1;
+		print(d);
+	}
+}

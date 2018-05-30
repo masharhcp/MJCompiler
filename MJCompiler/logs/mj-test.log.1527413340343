@@ -1,0 +1,257 @@
+INFO  11:27:47,043 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  11:27:47,105 - #2 program
+INFO  11:27:47,105 - #45 Program
+INFO  11:27:47,105 - #45 int
+INFO  11:27:47,106 - #45 a
+INFO  11:27:47,106 - #5 ;
+INFO  11:27:47,107 - #13 const
+INFO  11:27:47,107 - #45 int
+INFO  11:27:47,107 - #45 c
+INFO  11:27:47,107 - #12 =
+INFO  11:27:47,107 - #41 5
+INFO  11:27:47,107 - #5 ;
+INFO  11:27:47,107 - #45 int
+INFO  11:27:47,107 - #11 +
+ERROR 11:27:47,107 - 
+Sintaksna greska na liniji 4
+INFO  11:27:47,108 - #8 ,
+INFO  11:27:47,108 - #45 d
+INFO  11:27:47,108 - #5 ;
+INFO  11:27:47,108 - #45 char
+DEBUG 11:27:47,108 - Uspesan oporavak od greske pri deklaraciji varijable varIdent.
+INFO  11:27:47,134 - #45 dsfg
+INFO  11:27:47,134 - #5 ;
+INFO  11:27:47,134 - #45 int
+INFO  11:27:47,134 - #45 asf
+INFO  11:27:47,134 - #5 ;
+INFO  11:27:47,134 - #13 const
+INFO  11:27:47,134 - #45 bool
+INFO  11:27:47,134 - #45 bl
+INFO  11:27:47,134 - #12 =
+INFO  11:27:47,134 - #43 true
+INFO  11:27:47,135 - #5 ;
+INFO  11:27:47,135 - #40 class
+INFO  11:27:47,135 - #45 A
+INFO  11:27:47,135 - #29 extends
+INFO  11:27:47,135 - #45 aaa
+INFO  11:27:47,135 - #3 {
+INFO  11:27:47,135 - #45 int
+INFO  11:27:47,136 - #45 x
+INFO  11:27:47,136 - #14 [
+INFO  11:27:47,136 - #15 ]
+INFO  11:27:47,136 - #8 ,
+INFO  11:27:47,136 - #45 y
+INFO  11:27:47,136 - #14 [
+INFO  11:27:47,136 - #15 ]
+INFO  11:27:47,136 - #5 ;
+INFO  11:27:47,136 - #45 int
+INFO  11:27:47,137 - #45 m
+INFO  11:27:47,137 - #8 ,
+INFO  11:27:47,137 - #45 s
+INFO  11:27:47,137 - #5 ;
+INFO  11:27:47,137 - #3 {
+INFO  11:27:47,137 - #45 int
+INFO  11:27:47,138 - #45 metoda
+INFO  11:27:47,138 - #6 (
+INFO  11:27:47,138 - #45 int
+INFO  11:27:47,138 - #45 a
+INFO  11:27:47,139 - #7 )
+INFO  11:27:47,139 - #3 {
+INFO  11:27:47,139 - #10 return
+INFO  11:27:47,139 - #41 5
+INFO  11:27:47,145 - #5 ;
+INFO  11:27:47,145 - #4 }
+INFO  11:27:47,145 - #4 }
+INFO  11:27:47,146 - #4 }
+INFO  11:27:47,146 - #3 {
+INFO  11:27:47,147 - #45 int
+INFO  11:27:47,147 - #45 proba
+INFO  11:27:47,147 - #6 (
+INFO  11:27:47,147 - #45 int
+INFO  11:27:47,147 - #45 nov
+INFO  11:27:47,148 - #7 )
+INFO  11:27:47,148 - #45 int
+INFO  11:27:47,148 - #45 s
+INFO  11:27:47,148 - #14 [
+INFO  11:27:47,148 - #15 ]
+INFO  11:27:47,148 - #5 ;
+INFO  11:27:47,148 - #3 {
+INFO  11:27:47,148 - #45 a
+INFO  11:27:47,148 - #12 =
+INFO  11:27:47,148 - #41 5
+INFO  11:27:47,148 - #5 ;
+INFO  11:27:47,148 - #45 nov
+INFO  11:27:47,148 - #12 =
+INFO  11:27:47,148 - #45 a
+INFO  11:27:47,148 - #5 ;
+INFO  11:27:47,149 - #45 nov
+INFO  11:27:47,149 - #21 ++
+INFO  11:27:47,149 - #5 ;
+INFO  11:27:47,149 - #26 if
+INFO  11:27:47,149 - #6 (
+INFO  11:27:47,150 - #45 a
+INFO  11:27:47,150 - #36 <
+INFO  11:27:47,150 - #41 6
+INFO  11:27:47,151 - #7 )
+INFO  11:27:47,152 - #45 s
+INFO  11:27:47,152 - #12 =
+INFO  11:27:47,152 - #23 new
+INFO  11:27:47,152 - #45 int
+INFO  11:27:47,152 - #14 [
+INFO  11:27:47,152 - #45 a
+INFO  11:27:47,152 - #15 ]
+INFO  11:27:47,153 - #5 ;
+INFO  11:27:47,153 - #25 else
+INFO  11:27:47,153 - #45 s
+INFO  11:27:47,153 - #12 =
+INFO  11:27:47,153 - #23 new
+INFO  11:27:47,153 - #45 int
+INFO  11:27:47,153 - #14 [
+INFO  11:27:47,153 - #41 6
+INFO  11:27:47,153 - #15 ]
+INFO  11:27:47,153 - #5 ;
+INFO  11:27:47,153 - #27 do
+INFO  11:27:47,153 - #3 {
+INFO  11:27:47,154 - #45 nov
+INFO  11:27:47,154 - #12 =
+INFO  11:27:47,154 - #16 -
+INFO  11:27:47,155 - #45 a
+INFO  11:27:47,155 - #11 +
+INFO  11:27:47,155 - #41 4
+INFO  11:27:47,155 - #16 -
+INFO  11:27:47,155 - #45 a
+INFO  11:27:47,156 - #17 *
+INFO  11:27:47,156 - #45 c
+INFO  11:27:47,157 - #11 +
+INFO  11:27:47,157 - #6 (
+INFO  11:27:47,157 - #45 a
+INFO  11:27:47,157 - #16 -
+INFO  11:27:47,157 - #41 3
+INFO  11:27:47,157 - #7 )
+INFO  11:27:47,157 - #5 ;
+INFO  11:27:47,157 - #26 if
+INFO  11:27:47,157 - #6 (
+INFO  11:27:47,157 - #45 nov
+INFO  11:27:47,157 - #36 <
+INFO  11:27:47,157 - #41 0
+INFO  11:27:47,157 - #7 )
+INFO  11:27:47,157 - #24 break
+INFO  11:27:47,158 - #5 ;
+INFO  11:27:48,282 - #4 }
+INFO  11:27:48,283 - #28 while
+INFO  11:27:48,283 - #6 (
+INFO  11:27:48,283 - #45 s
+INFO  11:27:48,283 - #32 ==
+INFO  11:27:48,283 - #23 new
+INFO  11:27:48,284 - #45 int
+INFO  11:27:48,284 - #14 [
+INFO  11:27:48,284 - #41 7
+INFO  11:27:48,284 - #15 ]
+INFO  11:27:48,284 - #7 )
+INFO  11:27:48,284 - #5 ;
+INFO  11:27:48,284 - #10 return
+INFO  11:27:48,284 - #45 nov
+INFO  11:27:48,284 - #5 ;
+INFO  11:27:48,284 - #4 }
+INFO  11:27:48,285 - #45 bool
+INFO  11:27:48,285 - #45 s
+INFO  11:27:48,285 - #6 (
+INFO  11:27:48,285 - #45 int
+INFO  11:27:48,285 - #45 m
+INFO  11:27:48,285 - #7 )
+INFO  11:27:48,285 - #45 int
+INFO  11:27:48,285 - #45 e
+INFO  11:27:48,285 - #14 [
+INFO  11:27:48,285 - #15 ]
+INFO  11:27:48,285 - #5 ;
+INFO  11:27:48,285 - #3 {
+INFO  11:27:48,285 - #45 e
+INFO  11:27:48,286 - #12 =
+INFO  11:27:48,286 - #23 new
+INFO  11:27:48,286 - #45 int
+INFO  11:27:48,286 - #14 [
+INFO  11:27:48,286 - #45 m
+INFO  11:27:48,286 - #15 ]
+INFO  11:27:48,286 - #5 ;
+INFO  11:27:48,286 - #10 return
+INFO  11:27:48,286 - #43 true
+INFO  11:27:48,286 - #5 ;
+INFO  11:27:48,286 - #4 }
+INFO  11:27:48,287 - #45 void
+INFO  11:27:48,287 - #45 main
+INFO  11:27:48,287 - #6 (
+INFO  11:27:48,287 - #7 )
+INFO  11:27:48,288 - #3 {
+INFO  11:27:48,288 - #45 d
+INFO  11:27:48,288 - #12 =
+INFO  11:27:48,288 - #41 4
+INFO  11:27:48,288 - #5 ;
+INFO  11:27:48,288 - #26 if
+INFO  11:27:48,288 - #6 (
+INFO  11:27:48,288 - #45 c
+INFO  11:27:48,288 - #32 ==
+INFO  11:27:48,288 - #41 3
+INFO  11:27:48,288 - #39 ||
+INFO  11:27:48,288 - #45 s
+INFO  11:27:48,288 - #6 (
+INFO  11:27:48,288 - #45 c
+INFO  11:27:48,289 - #7 )
+INFO  11:27:48,289 - #7 )
+INFO  11:27:48,289 - #45 proba
+INFO  11:27:48,289 - #6 (
+INFO  11:27:48,289 - #16 -
+INFO  11:27:48,289 - #41 1
+INFO  11:27:48,289 - #7 )
+INFO  11:27:48,290 - #5 ;
+INFO  11:27:48,290 - #25 else
+INFO  11:27:48,290 - #45 proba
+INFO  11:27:48,290 - #6 (
+INFO  11:27:48,290 - #41 1
+INFO  11:27:48,290 - #7 )
+INFO  11:27:48,290 - #5 ;
+INFO  11:27:48,290 - #9 print
+INFO  11:27:48,290 - #6 (
+INFO  11:27:48,290 - #45 d
+INFO  11:27:48,290 - #7 )
+INFO  11:27:48,291 - #5 ;
+INFO  11:27:48,291 - #4 }
+INFO  11:27:48,291 - #4 }
+INFO  11:27:48,306 - Deklarisana je promenljiva a na liniji 2
+INFO  11:27:48,306 - Deklarisana je konstanta c na liniji 3
+INFO  11:27:48,306 - Deklarisana je promenljiva d na liniji 4
+INFO  11:27:48,306 - Deklarisana je promenljiva dsfg na liniji 5
+INFO  11:27:48,306 - Deklarisana je promenljiva asf na liniji 6
+INFO  11:27:48,306 - Deklarisana je konstanta bl na liniji 7
+ERROR 11:27:48,306 - Nije pronadjen tip aaa u tabeli simbola
+INFO  11:27:48,306 - Deklarisan je niz x na liniji 10
+INFO  11:27:48,307 - Deklarisan je niz y na liniji 10
+INFO  11:27:48,307 - Deklarisana je promenljiva m na liniji 11
+INFO  11:27:48,307 - Deklarisana je promenljiva s na liniji 11
+INFO  11:27:48,307 - Obradjuje se funkcija metoda na liniji 13
+INFO  11:27:48,307 - Obradjen je formalni parametar a metode metoda na liniji 13
+ERROR 11:27:48,307 - Semanticka greska na liniji 13: funcija metoda nema return iskaz!
+INFO  11:27:48,307 - Obradjuje se funkcija proba na liniji 18
+INFO  11:27:48,308 - Obradjen je formalni parametar nov metode proba na liniji 18
+INFO  11:27:48,308 - Deklarisan je niz s na liniji 18
+INFO  11:27:48,308 - Detektovano lokalne koriscene globalne a na liniji 20
+INFO  11:27:48,308 - Detektovano  koriscene lokalne promenljive nov na liniji 21
+INFO  11:27:48,308 - Detektovano lokalne koriscene globalne a na liniji 21
+INFO  11:27:48,308 - Detektovano  koriscene lokalne promenljive nov na liniji 22
+INFO  11:27:48,308 - Detektovano lokalne koriscene globalne a na liniji 23
+INFO  11:27:48,308 - Detektovano  koriscene lokalne promenljive s na liniji 24
+INFO  11:27:48,308 - Detektovano lokalne koriscene globalne a na liniji 24
+INFO  11:27:48,308 - Inicijalizovan niz na liniji  na liniji 24
+INFO  11:27:48,308 - Detektovano  koriscene lokalne promenljive s na liniji 26
+INFO  11:27:48,308 - Inicijalizovan niz na liniji  na liniji 26
+INFO  11:27:48,308 - Detektovano  koriscene lokalne promenljive nov na liniji 29
+INFO  11:27:48,309 - Detektovano lokalne koriscene globalne a na liniji 29
+INFO  11:27:48,309 - Detektovano lokalne koriscene globalne a na liniji 29
+INFO  11:27:48,309 - Detektovano koriscene konstante c na liniji 29
+INFO  11:27:48,309 - Detektovano lokalne koriscene globalne a na liniji 29
+INFO  11:27:48,309 - Detektovano  koriscene lokalne promenljive nov na liniji 30
+INFO  11:27:48,309 - Detektovano  koriscene lokalne promenljive s na liniji 33
+INFO  11:27:48,309 - Inicijalizovan niz na liniji  na liniji 33
+INFO  11:27:48,309 - Detektovano  koriscene lokalne promenljive nov na liniji 35
+ERROR 11:27:48,309 - Semanticka greska na liniji 18: funcija proba nema return iskaz!
+ERROR 11:27:48,309 - Greska na liniji 38 : Metoda s je vec deklarisana.
+ERROR 11:27:48,309 - Greska na liniji 38 : Formalni parametar sa imenom m je vec deklarisan.

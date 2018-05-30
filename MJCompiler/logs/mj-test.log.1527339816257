@@ -1,0 +1,84 @@
+INFO  15:02:47,686 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:02:47,750 - #2 program
+INFO  15:02:47,750 - #45 test301
+INFO  15:02:47,750 - #13 const
+INFO  15:02:47,751 - #45 int
+INFO  15:02:47,751 - #45 jedan
+INFO  15:02:47,751 - #12 =
+INFO  15:02:47,751 - #41 1
+INFO  15:02:47,752 - #8 ,
+INFO  15:02:47,752 - #45 pet
+INFO  15:02:47,752 - #12 =
+INFO  15:02:47,752 - #41 5
+INFO  15:02:47,752 - #5 ;
+INFO  15:02:47,752 - #45 int
+INFO  15:02:47,752 - #45 niz
+INFO  15:02:47,752 - #14 [
+INFO  15:02:47,753 - #15 ]
+INFO  15:02:47,753 - #5 ;
+INFO  15:02:47,753 - #45 char
+INFO  15:02:47,753 - #45 nizch
+INFO  15:02:47,753 - #14 [
+INFO  15:02:47,778 - #15 ]
+INFO  15:02:47,778 - #5 ;
+INFO  15:02:47,778 - #3 {
+INFO  15:02:47,778 - #45 void
+INFO  15:02:47,779 - #45 main
+INFO  15:02:47,779 - #6 (
+INFO  15:02:47,780 - #7 )
+INFO  15:02:47,780 - #45 int
+INFO  15:02:47,781 - #45 bodovi
+INFO  15:02:47,781 - #5 ;
+INFO  15:02:47,781 - #3 {
+INFO  15:02:47,781 - #45 bodovi
+INFO  15:02:47,782 - #12 =
+INFO  15:02:47,782 - #42 a
+INFO  15:02:47,782 - #5 ;
+INFO  15:02:47,782 - #45 bodovi
+INFO  15:02:47,783 - #21 ++
+INFO  15:02:47,783 - #5 ;
+INFO  15:02:47,783 - #45 bodovi
+INFO  15:02:47,783 - #12 =
+INFO  15:02:47,783 - #45 bodovi
+INFO  15:02:47,783 - #11 +
+INFO  15:02:47,783 - #45 jedan
+INFO  15:02:47,784 - #5 ;
+INFO  15:02:47,784 - #45 bodovi
+INFO  15:02:47,784 - #12 =
+INFO  15:02:47,784 - #45 bodovi
+INFO  15:02:47,784 - #17 *
+INFO  15:02:47,784 - #45 pet
+INFO  15:02:47,785 - #5 ;
+INFO  15:02:47,786 - #45 bodovi
+INFO  15:02:47,786 - #22 --
+INFO  15:02:47,786 - #5 ;
+INFO  15:02:47,786 - #9 print
+INFO  15:02:47,786 - #6 (
+INFO  15:02:47,786 - #45 bodovi
+INFO  15:02:47,786 - #7 )
+INFO  15:02:47,787 - #5 ;
+INFO  15:02:47,787 - #45 niz
+INFO  15:02:47,793 - #12 =
+INFO  15:02:47,794 - #23 new
+INFO  15:02:47,794 - #45 int
+INFO  15:02:47,794 - #14 [
+INFO  15:02:47,794 - #41 2
+INFO  15:02:47,794 - #15 ]
+INFO  15:02:47,794 - #5 ;
+INFO  15:02:47,795 - #4 }
+INFO  15:02:47,795 - #4 }
+INFO  15:02:47,813 - Deklarisana je konstanta jedan na liniji 5
+INFO  15:02:47,813 - Deklarisana je konstanta pet na liniji 5
+INFO  15:02:47,813 - Deklarisan je niz niz8 na liniji 8
+INFO  15:02:47,813 - Deklarisan je niz nizch10 na liniji 10
+INFO  15:02:47,813 - Obradjuje se funkcija main na liniji 13
+INFO  15:02:47,814 - Deklarisana je promenljiva bodovi na liniji 13
+ERROR 15:02:47,814 - Greska na liniji 16 izraz sa desne strane mora biti kompatibilan po tipu sa promenljivom kojoj se dodeljuje.
+INFO  15:02:47,814 - Detektovano  inkrementiranje promenljive bodovi na liniji 17
+INFO  15:02:47,814 - Detektovano koriscenje promenljive bodovi na liniji 18
+INFO  15:02:47,814 - Detektovano koriscenje promenljive bodovi na liniji 19
+INFO  15:02:47,814 - Detektovano  dekrementiranje promenljive bodovi na liniji 20
+INFO  15:02:47,815 - Inicijalizovan niz na liniji  na liniji 24
+INFO  15:02:47,815 - Detektovano koriscenje promenljive niz na liniji 24
+INFO  15:02:47,815 - Print calls = 1
+ERROR 15:02:47,816 - Parsiranje NIJE uspesno zavrseno!

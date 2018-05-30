@@ -1,0 +1,86 @@
+INFO  14:38:16,092 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:38:16,208 - #2 program
+INFO  14:38:16,209 - #45 test301
+INFO  14:38:16,209 - #13 const
+INFO  14:38:16,210 - #45 int
+INFO  14:38:16,210 - #45 jedan
+INFO  14:38:16,211 - #12 =
+INFO  14:38:16,211 - #41 1
+INFO  14:38:16,211 - #5 ;
+INFO  14:38:16,212 - #13 const
+INFO  14:38:16,212 - #45 int
+INFO  14:38:16,212 - #45 pet
+INFO  14:38:16,212 - #12 =
+INFO  14:38:16,212 - #41 5
+INFO  14:38:16,213 - #5 ;
+INFO  14:38:16,213 - #45 int
+INFO  14:38:16,213 - #45 niz
+INFO  14:38:16,213 - #14 [
+INFO  14:38:16,214 - #15 ]
+INFO  14:38:16,214 - #5 ;
+INFO  14:38:16,214 - #45 char
+INFO  14:38:16,215 - #45 nizch
+INFO  14:38:16,215 - #14 [
+INFO  14:38:16,215 - #15 ]
+INFO  14:38:16,215 - #5 ;
+INFO  14:38:16,216 - #3 {
+INFO  14:38:16,216 - #45 void
+INFO  14:38:16,217 - #45 main
+INFO  14:38:16,217 - #6 (
+INFO  14:38:16,218 - #7 )
+INFO  14:38:16,218 - #45 int
+INFO  14:38:16,219 - #45 bodovi
+INFO  14:38:16,219 - #5 ;
+INFO  14:38:16,219 - #3 {
+INFO  14:38:16,220 - #45 bodovi
+INFO  14:38:16,221 - #12 =
+INFO  14:38:16,221 - #41 0
+INFO  14:38:16,221 - #5 ;
+INFO  14:38:16,221 - #45 bodovi
+INFO  14:38:16,222 - #21 ++
+INFO  14:38:16,222 - #5 ;
+INFO  14:38:16,222 - #45 bodovi
+INFO  14:38:16,222 - #12 =
+INFO  14:38:16,222 - #45 bodovi
+INFO  14:38:16,222 - #11 +
+INFO  14:38:16,222 - #45 jedan
+INFO  14:38:16,223 - #5 ;
+INFO  14:38:16,224 - #45 bodovi
+INFO  14:38:16,224 - #12 =
+INFO  14:38:16,224 - #45 bodovi
+INFO  14:38:16,224 - #17 *
+INFO  14:38:16,224 - #45 pet
+INFO  14:38:16,225 - #5 ;
+INFO  14:38:16,226 - #45 bodovi
+INFO  14:38:16,226 - #22 --
+INFO  14:38:16,226 - #5 ;
+INFO  14:38:16,226 - #9 print
+INFO  14:38:16,226 - #6 (
+INFO  14:38:16,226 - #45 bodovi
+INFO  14:38:16,227 - #7 )
+INFO  14:38:16,234 - #5 ;
+INFO  14:38:16,234 - #4 }
+INFO  14:38:16,234 - #4 }
+INFO  14:38:16,253 - Deklarisana je konstanta jedan na liniji5 na liniji 5
+INFO  14:38:16,253 - Deklarisana je konstanta pet na liniji6 na liniji 6
+INFO  14:38:16,254 - Deklarisan je niz niz8 na liniji 8
+INFO  14:38:16,254 - Deklarisan je niz nizch10 na liniji 10
+INFO  14:38:16,254 - Obradjuje se funkcija main na liniji 13
+INFO  14:38:16,255 - Deklarisana je promenljiva bodovi na liniji 13
+INFO  14:38:16,255 - Detektovano koriscene promenljive bodovi na liniji 16
+INFO  14:38:16,255 - Detektovano koriscenje promenljive bodovi na liniji 16
+INFO  14:38:16,255 - Detektovano koriscene promenljive bodovi na liniji 17
+INFO  14:38:16,255 - Detektovano  inkrementiranje promenljive bodovi na liniji 17
+INFO  14:38:16,255 - Detektovano koriscene promenljive bodovi na liniji 18
+INFO  14:38:16,255 - Detektovano koriscene promenljive bodovi na liniji 18
+INFO  14:38:16,255 - Detektovano koriscene promenljive jedan na liniji 18
+INFO  14:38:16,255 - Detektovano koriscenje promenljive bodovi na liniji 18
+INFO  14:38:16,255 - Detektovano koriscene promenljive bodovi na liniji 19
+INFO  14:38:16,255 - Detektovano koriscene promenljive bodovi na liniji 19
+INFO  14:38:16,255 - Detektovano koriscene promenljive pet na liniji 19
+INFO  14:38:16,255 - Detektovano koriscenje promenljive bodovi na liniji 19
+INFO  14:38:16,256 - Detektovano koriscene promenljive bodovi na liniji 20
+INFO  14:38:16,256 - Detektovano  dekrementiranje promenljive bodovi na liniji 20
+INFO  14:38:16,256 - Detektovano koriscene promenljive bodovi na liniji 21
+INFO  14:38:16,256 - Print calls = 1
+INFO  14:38:16,257 - Generating bytecode file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.obj

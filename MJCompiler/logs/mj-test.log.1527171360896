@@ -1,0 +1,80 @@
+INFO  16:13:04,751 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:13:04,812 - #2 program
+INFO  16:13:04,812 - #45 MJProgram
+INFO  16:13:04,812 - #45 int
+INFO  16:13:04,813 - #45 x
+INFO  16:13:04,813 - #5 ;
+INFO  16:13:04,813 - #45 int
+INFO  16:13:04,814 - #45 y
+INFO  16:13:04,814 - #5 ;
+INFO  16:13:04,814 - #45 int
+INFO  16:13:04,814 - #45 x
+INFO  16:13:04,814 - #5 ;
+INFO  16:13:04,814 - #3 {
+INFO  16:13:04,814 - #45 int
+INFO  16:13:04,815 - #45 k
+INFO  16:13:04,815 - #6 (
+INFO  16:13:04,815 - #45 int
+INFO  16:13:04,815 - #45 int
+INFO  16:13:04,816 - #8 ,
+INFO  16:13:04,816 - #45 int
+INFO  16:13:04,816 - #45 p
+INFO  16:13:04,816 - #7 )
+INFO  16:13:04,816 - #45 int
+INFO  16:13:04,817 - #45 c
+INFO  16:13:04,817 - #5 ;
+INFO  16:13:04,817 - #3 {
+INFO  16:13:04,817 - #45 c
+INFO  16:13:04,818 - #12 =
+INFO  16:13:04,818 - #41 1
+INFO  16:13:04,818 - #5 ;
+INFO  16:13:04,818 - #10 return
+INFO  16:13:04,819 - #45 c
+INFO  16:13:04,819 - #11 +
+INFO  16:13:04,819 - #41 2
+INFO  16:13:04,819 - #5 ;
+INFO  16:13:04,820 - #4 }
+INFO  16:13:04,820 - #45 void
+INFO  16:13:04,821 - #45 main
+INFO  16:13:04,821 - #6 (
+INFO  16:13:04,821 - #7 )
+INFO  16:13:04,821 - #3 {
+INFO  16:13:04,821 - #45 y
+INFO  16:13:04,821 - #12 =
+INFO  16:13:04,821 - #41 2
+INFO  16:13:04,822 - #5 ;
+INFO  16:13:04,822 - #45 x
+INFO  16:13:04,822 - #12 =
+INFO  16:13:04,822 - #45 y
+INFO  16:13:04,822 - #11 +
+INFO  16:13:04,822 - #41 2
+INFO  16:13:04,822 - #5 ;
+INFO  16:13:04,822 - #45 y
+INFO  16:13:04,822 - #12 =
+INFO  16:13:04,822 - #45 k
+INFO  16:13:04,822 - #6 (
+INFO  16:13:04,822 - #7 )
+INFO  16:13:04,823 - #11 +
+INFO  16:13:04,823 - #41 3
+INFO  16:13:04,823 - #5 ;
+INFO  16:13:04,823 - #9 print
+INFO  16:13:04,828 - #6 (
+INFO  16:13:04,828 - #45 y
+INFO  16:13:04,828 - #7 )
+INFO  16:13:04,829 - #5 ;
+INFO  16:13:04,829 - #10 return
+INFO  16:13:04,829 - #41 0
+INFO  16:13:04,829 - #5 ;
+INFO  16:13:04,829 - #4 }
+INFO  16:13:04,830 - #4 }
+INFO  16:13:04,843 - Deklarisana je promenljiva x2 na liniji 2
+INFO  16:13:04,843 - Deklarisana je promenljiva y2 na liniji 2
+ERROR 16:13:04,843 - Greska na liniji 2 : Promenljiva koja x vec postoji u trenutnon Scope-u
+INFO  16:13:04,843 - Deklarisana je promenljiva x2 na liniji 2
+INFO  16:13:04,843 - Obradjuje se funkcija k na liniji 5
+ERROR 16:13:04,843 - Greska na liniji 5 : Ime formalnog parametra int ne sme biti tip.
+INFO  16:13:04,844 - Obradjen je formalni parametar p metode k na liniji 5
+INFO  16:13:04,844 - Deklarisana je promenljiva c5 na liniji 5
+INFO  16:13:04,844 - Obradjuje se funkcija main na liniji 10
+INFO  16:13:04,844 - Print calls = 0
+ERROR 16:13:04,845 - Parsiranje NIJE uspesno zavrseno!

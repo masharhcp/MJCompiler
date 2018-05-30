@@ -1,0 +1,43 @@
+INFO  12:42:07,546 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:42:07,577 - #2 program
+INFO  12:42:07,577 - #28 test301
+INFO  12:42:07,577 - #14 const
+INFO  12:42:07,577 - #28 int
+INFO  12:42:07,577 - #28 jedan
+INFO  12:42:07,577 - #12 =
+INFO  12:42:07,577 - #27 1
+INFO  12:42:07,577 - #8 ,
+INFO  12:42:07,577 - #28 dva
+INFO  12:42:07,577 - #12 =
+INFO  12:42:07,577 - #27 2
+INFO  12:42:07,577 - #17 -
+ERROR 12:42:07,577 - 
+Sintaksna greska na liniji 5
+INFO  12:42:07,577 - #5 ;
+INFO  12:42:07,577 - #14 const
+INFO  12:42:07,577 - #28 int
+INFO  12:42:07,577 - #28 pet
+DEBUG 12:42:07,592 - Uspesan oporavak od greske pri deklaraciji konstante.
+INFO  12:42:07,592 - #12 =
+INFO  12:42:07,592 - #27 5
+INFO  12:42:07,592 - #17 -
+ERROR 12:42:07,592 - 
+Sintaksna greska na liniji 6
+INFO  12:42:07,592 - #5 ;
+INFO  12:42:07,592 - #28 int
+INFO  12:42:07,592 - #28 cetiri
+INFO  12:42:07,592 - #17 -
+DEBUG 12:42:07,592 - Uspesan oporavak od greske pri deklaraciji konstante.
+ERROR 12:42:07,592 - 
+Sintaksna greska na liniji 7
+INFO  12:42:07,592 - #8 ,
+INFO  12:42:07,592 - #28 pet
+INFO  12:42:07,592 - #5 ;
+INFO  12:42:07,592 - #28 int
+DEBUG 12:42:07,592 - Uspesan oporavak od greske pri deklaraciji varijable varIdent.
+INFO  12:42:07,592 - #17 -
+ERROR 12:42:07,592 - 
+Sintaksna greska na liniji 8
+ERROR 12:42:07,592 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8
+INFO  12:42:07,608 - Print calls = 0
+ERROR 12:42:07,608 - Parsiranje NIJE uspesno zavrseno!

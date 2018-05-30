@@ -1,0 +1,19 @@
+INFO  13:56:56,788 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  13:56:56,833 - #2 program
+INFO  13:56:56,833 - #28 MJProgram
+INFO  13:56:56,833 - #28 int
+INFO  13:56:56,834 - #28 xa
+INFO  13:56:56,835 - #5 ;
+INFO  13:56:56,835 - #28 int
+INFO  13:56:56,835 - #28 ya
+INFO  13:56:56,835 - #5 ;
+INFO  13:56:56,835 - #14 const
+INFO  13:56:56,835 - #28 ap
+INFO  13:56:56,835 - #28 int
+INFO  13:56:56,835 - #5 ;
+ERROR 13:56:56,836 - 
+Sintaksna greska na liniji 4
+ERROR 13:56:56,836 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4
+ERROR 13:56:56,852 - Nije pronadjen tip ap u tabeli simbola
+INFO  13:56:56,852 - Print calls = 0
+ERROR 13:56:56,873 - Parsiranje NIJE uspesno zavrseno!

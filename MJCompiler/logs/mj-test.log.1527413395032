@@ -1,0 +1,156 @@
+INFO  11:29:00,348 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  11:29:00,409 - #2 program
+INFO  11:29:00,409 - #45 Program
+INFO  11:29:00,409 - #45 int
+INFO  11:29:00,410 - #45 a
+INFO  11:29:00,411 - #5 ;
+INFO  11:29:00,411 - #13 const
+INFO  11:29:00,411 - #45 int
+INFO  11:29:00,411 - #45 c
+INFO  11:29:00,411 - #12 =
+INFO  11:29:00,412 - #41 5
+INFO  11:29:00,412 - #5 ;
+INFO  11:29:00,412 - #45 int
+INFO  11:29:00,412 - #45 l
+INFO  11:29:00,412 - #8 ,
+INFO  11:29:00,413 - #45 d
+INFO  11:29:00,413 - #5 ;
+INFO  11:29:00,413 - #45 char
+INFO  11:29:00,413 - #45 dsfg
+INFO  11:29:00,413 - #5 ;
+INFO  11:29:00,413 - #45 int
+INFO  11:29:00,413 - #45 asf
+INFO  11:29:00,430 - #5 ;
+INFO  11:29:00,430 - #13 const
+INFO  11:29:00,430 - #45 bool
+INFO  11:29:00,430 - #45 bl
+INFO  11:29:00,430 - #12 =
+INFO  11:29:00,430 - #43 true
+INFO  11:29:00,430 - #5 ;
+INFO  11:29:00,430 - #40 class
+INFO  11:29:00,430 - #45 A
+INFO  11:29:00,430 - #29 extends
+INFO  11:29:00,431 - #45 aaa
+INFO  11:29:00,431 - #3 {
+INFO  11:29:00,431 - #45 int
+INFO  11:29:00,431 - #45 x
+INFO  11:29:00,432 - #14 [
+INFO  11:29:00,432 - #15 ]
+INFO  11:29:00,432 - #8 ,
+INFO  11:29:00,432 - #45 y
+INFO  11:29:00,432 - #14 [
+INFO  11:29:00,432 - #15 ]
+INFO  11:29:00,432 - #5 ;
+INFO  11:29:00,432 - #45 int
+INFO  11:29:00,432 - #45 m
+INFO  11:29:00,432 - #8 ,
+INFO  11:29:00,432 - #45 s
+INFO  11:29:00,432 - #5 ;
+INFO  11:29:00,432 - #3 {
+INFO  11:29:00,432 - #45 int
+INFO  11:29:00,433 - #45 metoda
+INFO  11:29:00,433 - #6 (
+INFO  11:29:00,434 - #45 int
+INFO  11:29:00,434 - #45 a
+INFO  11:29:00,434 - #7 )
+INFO  11:29:00,434 - #3 {
+INFO  11:29:00,434 - #10 return
+INFO  11:29:00,435 - #41 5
+INFO  11:29:00,435 - #5 ;
+INFO  11:29:00,435 - #4 }
+INFO  11:29:00,440 - #4 }
+INFO  11:29:00,441 - #4 }
+INFO  11:29:00,441 - #3 {
+INFO  11:29:00,442 - #45 int
+INFO  11:29:00,442 - #45 proba
+INFO  11:29:00,443 - #6 (
+INFO  11:29:00,443 - #45 int
+INFO  11:29:00,443 - #45 nov
+INFO  11:29:00,443 - #7 )
+INFO  11:29:00,443 - #45 int
+INFO  11:29:00,443 - #45 s
+INFO  11:29:00,443 - #14 [
+INFO  11:29:00,443 - #15 ]
+INFO  11:29:00,443 - #5 ;
+INFO  11:29:00,443 - #3 {
+INFO  11:29:00,443 - #45 a
+INFO  11:29:00,443 - #12 =
+INFO  11:29:00,443 - #41 5
+INFO  11:29:00,443 - #5 ;
+INFO  11:29:00,444 - #45 nov
+INFO  11:29:00,444 - #12 =
+INFO  11:29:00,444 - #45 a
+INFO  11:29:00,444 - #5 ;
+INFO  11:29:00,444 - #45 nov
+INFO  11:29:00,444 - #21 ++
+INFO  11:29:00,444 - #5 ;
+INFO  11:29:00,444 - #10 return
+INFO  11:29:00,444 - #45 nov
+INFO  11:29:00,444 - #5 ;
+INFO  11:29:00,444 - #4 }
+INFO  11:29:00,444 - #45 bool
+INFO  11:29:00,444 - #45 s
+INFO  11:29:00,444 - #6 (
+INFO  11:29:00,444 - #45 int
+INFO  11:29:00,445 - #45 m
+INFO  11:29:00,445 - #7 )
+INFO  11:29:00,445 - #45 int
+INFO  11:29:00,445 - #45 e
+INFO  11:29:00,445 - #14 [
+INFO  11:29:00,445 - #15 ]
+INFO  11:29:00,445 - #5 ;
+INFO  11:29:00,445 - #3 {
+INFO  11:29:00,445 - #45 e
+INFO  11:29:00,445 - #12 =
+INFO  11:29:00,445 - #23 new
+INFO  11:29:00,445 - #45 int
+INFO  11:29:00,445 - #14 [
+INFO  11:29:00,445 - #45 m
+INFO  11:29:00,445 - #15 ]
+INFO  11:29:00,445 - #5 ;
+INFO  11:29:00,445 - #10 return
+INFO  11:29:00,445 - #43 true
+INFO  11:29:00,446 - #5 ;
+INFO  11:29:00,446 - #4 }
+INFO  11:29:00,446 - #45 void
+INFO  11:29:00,446 - #45 main
+INFO  11:29:00,446 - #6 (
+INFO  11:29:00,446 - #7 )
+INFO  11:29:00,446 - #3 {
+INFO  11:29:00,447 - #45 d
+INFO  11:29:00,447 - #12 =
+INFO  11:29:00,447 - #41 4
+INFO  11:29:00,447 - #5 ;
+INFO  11:29:00,447 - #9 print
+INFO  11:29:00,447 - #6 (
+INFO  11:29:00,447 - #45 d
+INFO  11:29:00,447 - #7 )
+INFO  11:29:00,448 - #5 ;
+INFO  11:29:00,448 - #4 }
+INFO  11:29:00,448 - #4 }
+INFO  11:29:00,461 - Deklarisana je promenljiva a na liniji 2
+INFO  11:29:00,461 - Deklarisana je konstanta c na liniji 3
+INFO  11:29:00,462 - Deklarisana je promenljiva l na liniji 4
+INFO  11:29:00,462 - Deklarisana je promenljiva d na liniji 4
+INFO  11:29:00,462 - Deklarisana je promenljiva dsfg na liniji 5
+INFO  11:29:03,610 - Deklarisana je promenljiva asf na liniji 6
+INFO  11:29:03,611 - Deklarisana je konstanta bl na liniji 7
+ERROR 11:29:03,611 - Nije pronadjen tip aaa u tabeli simbola
+INFO  11:29:03,611 - Deklarisan je niz x na liniji 10
+INFO  11:29:03,611 - Deklarisan je niz y na liniji 10
+INFO  11:29:03,611 - Deklarisana je promenljiva m na liniji 11
+INFO  11:29:03,611 - Deklarisana je promenljiva s na liniji 11
+INFO  11:29:03,611 - Obradjuje se funkcija metoda na liniji 13
+INFO  11:29:03,611 - Obradjen je formalni parametar a metode metoda na liniji 13
+ERROR 11:29:03,612 - Semanticka greska na liniji 13: funcija metoda nema return iskaz!
+INFO  11:29:03,612 - Obradjuje se funkcija proba na liniji 18
+INFO  11:29:03,612 - Obradjen je formalni parametar nov metode proba na liniji 18
+INFO  11:29:03,612 - Deklarisan je niz s na liniji 18
+INFO  11:29:03,612 - Detektovano lokalne koriscene globalne a na liniji 20
+INFO  11:29:03,613 - Detektovano  koriscene lokalne promenljive nov na liniji 21
+INFO  11:29:03,613 - Detektovano lokalne koriscene globalne a na liniji 21
+INFO  11:29:03,613 - Detektovano  koriscene lokalne promenljive nov na liniji 22
+INFO  11:29:03,613 - Detektovano  koriscene lokalne promenljive nov na liniji 25
+ERROR 11:29:03,613 - Semanticka greska na liniji 18: funcija proba nema return iskaz!
+ERROR 11:29:03,613 - Greska na liniji 28 : Metoda s je vec deklarisana.
+ERROR 11:29:03,613 - Greska na liniji 28 : Formalni parametar sa imenom m je vec deklarisan.

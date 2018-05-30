@@ -1,0 +1,75 @@
+INFO  16:38:04,303 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:38:04,356 - #2 program
+INFO  16:38:04,356 - #45 MJProgram
+INFO  16:38:04,356 - #45 int
+INFO  16:38:04,356 - #45 x
+INFO  16:38:04,356 - #5 ;
+INFO  16:38:04,356 - #45 int
+INFO  16:38:04,372 - #45 y
+INFO  16:38:04,372 - #5 ;
+INFO  16:38:04,372 - #3 {
+INFO  16:38:04,372 - #45 int
+INFO  16:38:04,372 - #45 k
+INFO  16:38:04,372 - #6 (
+INFO  16:38:04,372 - #45 int
+INFO  16:38:04,372 - #45 m
+INFO  16:38:04,372 - #8 ,
+INFO  16:38:04,372 - #45 int
+INFO  16:38:04,372 - #45 p
+INFO  16:38:04,372 - #7 )
+INFO  16:38:04,372 - #45 int
+INFO  16:38:04,372 - #45 c
+INFO  16:38:04,372 - #5 ;
+INFO  16:38:04,372 - #3 {
+INFO  16:38:04,372 - #45 c
+INFO  16:38:04,372 - #12 =
+INFO  16:38:04,372 - #41 1
+INFO  16:38:04,372 - #5 ;
+INFO  16:38:04,372 - #10 return
+INFO  16:38:04,372 - #45 c
+INFO  16:38:04,372 - #11 +
+INFO  16:38:04,372 - #41 2
+INFO  16:38:04,372 - #5 ;
+INFO  16:38:04,372 - #4 }
+INFO  16:38:04,372 - #45 void
+INFO  16:38:04,372 - #45 main
+INFO  16:38:04,372 - #6 (
+INFO  16:38:04,372 - #7 )
+INFO  16:38:04,372 - #3 {
+INFO  16:38:04,372 - #45 y
+INFO  16:38:04,372 - #12 =
+INFO  16:38:04,372 - #41 2
+INFO  16:38:04,372 - #5 ;
+INFO  16:38:04,372 - #45 x
+INFO  16:38:04,372 - #12 =
+INFO  16:38:04,372 - #45 y
+INFO  16:38:04,372 - #11 +
+INFO  16:38:04,372 - #41 2
+INFO  16:38:04,372 - #5 ;
+INFO  16:38:04,372 - #45 y
+INFO  16:38:04,372 - #12 =
+INFO  16:38:04,372 - #45 k
+INFO  16:38:04,372 - #6 (
+INFO  16:38:04,372 - #7 )
+INFO  16:38:04,372 - #11 +
+INFO  16:38:04,372 - #41 3
+INFO  16:38:04,372 - #5 ;
+INFO  16:38:04,372 - #9 print
+INFO  16:38:04,372 - #6 (
+INFO  16:38:04,372 - #45 y
+INFO  16:38:04,372 - #7 )
+INFO  16:38:04,387 - #5 ;
+INFO  16:38:04,387 - #10 return
+INFO  16:38:04,387 - #41 0
+INFO  16:38:04,387 - #5 ;
+INFO  16:38:04,387 - #4 }
+INFO  16:38:04,387 - #4 }
+INFO  16:38:04,387 - Deklarisana je promenljiva x na liniji 2
+INFO  16:38:04,387 - Deklarisana je promenljiva y na liniji 2
+INFO  16:38:04,387 - Obradjuje se funkcija k na liniji 5
+INFO  16:38:04,387 - Obradjen je formalni parametar m metode k na liniji 5
+INFO  16:38:04,387 - Obradjen je formalni parametar p metode k na liniji 5
+INFO  16:38:04,387 - Deklarisana je promenljiva c na liniji 5
+INFO  16:38:04,387 - Obradjuje se funkcija main na liniji 10
+INFO  16:38:04,387 - Print calls = 0
+INFO  16:38:04,403 - Generating bytecode file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.obj

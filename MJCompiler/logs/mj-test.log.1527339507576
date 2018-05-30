@@ -1,0 +1,83 @@
+INFO  14:48:44,446 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:48:44,524 - #2 program
+INFO  14:48:44,524 - #45 test301
+INFO  14:48:44,524 - #13 const
+INFO  14:48:44,524 - #45 int
+INFO  14:48:44,524 - #45 jedan
+INFO  14:48:44,524 - #12 =
+INFO  14:48:44,524 - #41 1
+INFO  14:48:44,524 - #5 ;
+INFO  14:48:44,524 - #13 const
+INFO  14:48:44,524 - #45 int
+INFO  14:48:44,524 - #45 pet
+INFO  14:48:44,524 - #12 =
+INFO  14:48:44,524 - #41 5
+INFO  14:48:44,524 - #5 ;
+INFO  14:48:44,524 - #45 int
+INFO  14:48:44,524 - #45 niz
+INFO  14:48:44,524 - #14 [
+INFO  14:48:44,524 - #15 ]
+INFO  14:48:44,524 - #5 ;
+INFO  14:48:44,524 - #45 char
+INFO  14:48:44,558 - #45 nizch
+INFO  14:48:44,558 - #14 [
+INFO  14:48:44,558 - #15 ]
+INFO  14:48:44,558 - #5 ;
+INFO  14:48:44,558 - #3 {
+INFO  14:48:44,558 - #45 void
+INFO  14:48:44,559 - #45 main
+INFO  14:48:44,559 - #6 (
+INFO  14:48:44,560 - #7 )
+INFO  14:48:44,561 - #45 int
+INFO  14:48:44,561 - #45 bodovi
+INFO  14:48:44,561 - #5 ;
+INFO  14:48:44,561 - #3 {
+INFO  14:48:44,562 - #45 bodovi
+INFO  14:48:44,562 - #12 =
+INFO  14:48:44,563 - #41 0
+INFO  14:48:44,563 - #5 ;
+INFO  14:48:44,563 - #45 bodovi
+INFO  14:48:44,563 - #21 ++
+INFO  14:48:44,564 - #5 ;
+INFO  14:48:44,564 - #45 bodovi
+INFO  14:48:44,564 - #12 =
+INFO  14:48:44,564 - #45 bodovi
+INFO  14:48:44,564 - #11 +
+INFO  14:48:44,564 - #45 jedan
+INFO  14:48:44,565 - #5 ;
+INFO  14:48:44,565 - #45 bodovi
+INFO  14:48:44,565 - #12 =
+INFO  14:48:44,565 - #45 bodovi
+INFO  14:48:44,565 - #17 *
+INFO  14:48:44,565 - #45 pet
+INFO  14:48:44,566 - #5 ;
+INFO  14:48:44,567 - #45 bodovi
+INFO  14:48:44,567 - #22 --
+INFO  14:48:44,567 - #5 ;
+INFO  14:48:44,567 - #9 print
+INFO  14:48:44,567 - #6 (
+INFO  14:48:44,567 - #45 bodovi
+INFO  14:48:44,567 - #7 )
+INFO  14:48:44,569 - #5 ;
+INFO  14:48:44,569 - #45 niz
+INFO  14:48:44,569 - #12 =
+INFO  14:48:44,569 - #23 new
+INFO  14:48:44,569 - #45 int
+INFO  14:48:44,569 - #14 [
+INFO  14:48:44,569 - #41 2
+INFO  14:48:44,569 - #15 ]
+INFO  14:48:44,569 - #5 ;
+INFO  14:48:44,569 - #4 }
+INFO  14:48:44,569 - #4 }
+INFO  14:48:44,900 - Deklarisana je konstanta jedan na liniji5 na liniji 5
+INFO  14:48:44,900 - Deklarisana je konstanta pet na liniji6 na liniji 6
+INFO  14:48:44,900 - Deklarisan je niz niz8 na liniji 8
+INFO  14:48:44,900 - Deklarisan je niz nizch10 na liniji 10
+INFO  14:48:44,900 - Obradjuje se funkcija main na liniji 13
+INFO  14:48:44,900 - Deklarisana je promenljiva bodovi na liniji 13
+INFO  14:52:32,079 - Detektovano koriscenje promenljive bodovi na liniji 16
+INFO  14:52:32,079 - Detektovano  inkrementiranje promenljive bodovi na liniji 17
+INFO  14:55:19,228 - Detektovano koriscenje promenljive bodovi na liniji 18
+INFO  14:55:32,299 - Detektovano koriscenje promenljive bodovi na liniji 19
+INFO  14:55:32,299 - Detektovano  dekrementiranje promenljive bodovi na liniji 20
+INFO  14:55:32,302 - Inicijalizovan niz na liniji  na liniji 24

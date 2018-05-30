@@ -1,0 +1,71 @@
+INFO  15:56:06,763 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:56:06,824 - #2 program
+INFO  15:56:06,824 - #45 MJProgram
+INFO  15:56:06,824 - #45 int
+INFO  15:56:06,824 - #45 x
+INFO  15:56:06,825 - #5 ;
+INFO  15:56:06,825 - #45 int
+INFO  15:56:06,825 - #45 y
+INFO  15:56:06,825 - #5 ;
+INFO  15:56:06,825 - #3 {
+INFO  15:56:06,826 - #45 int
+INFO  15:56:06,826 - #45 k
+INFO  15:56:06,826 - #6 (
+INFO  15:56:06,827 - #45 int
+INFO  15:56:06,827 - #45 p
+INFO  15:56:06,827 - #7 )
+INFO  15:56:06,827 - #45 int
+INFO  15:56:06,828 - #45 c
+INFO  15:56:06,828 - #5 ;
+INFO  15:56:06,828 - #3 {
+INFO  15:56:06,828 - #45 c
+INFO  15:56:06,829 - #12 =
+INFO  15:56:06,829 - #41 1
+INFO  15:56:06,829 - #5 ;
+INFO  15:56:06,829 - #10 return
+INFO  15:56:06,830 - #45 c
+INFO  15:56:06,830 - #11 +
+INFO  15:56:06,830 - #41 2
+INFO  15:56:06,831 - #5 ;
+INFO  15:56:06,831 - #4 }
+INFO  15:56:06,832 - #45 void
+INFO  15:56:06,832 - #45 main
+INFO  15:56:06,832 - #6 (
+INFO  15:56:06,832 - #7 )
+INFO  15:56:06,833 - #3 {
+INFO  15:56:06,833 - #45 y
+INFO  15:56:06,833 - #12 =
+INFO  15:56:06,833 - #41 2
+INFO  15:56:06,833 - #5 ;
+INFO  15:56:06,833 - #45 x
+INFO  15:56:06,833 - #12 =
+INFO  15:56:06,833 - #45 y
+INFO  15:56:06,833 - #11 +
+INFO  15:56:06,834 - #41 2
+INFO  15:56:06,834 - #5 ;
+INFO  15:56:06,834 - #45 y
+INFO  15:56:06,834 - #12 =
+INFO  15:56:06,834 - #45 k
+INFO  15:56:06,834 - #6 (
+INFO  15:56:06,834 - #7 )
+INFO  15:56:06,835 - #11 +
+INFO  15:56:06,835 - #41 3
+INFO  15:56:06,835 - #5 ;
+INFO  15:56:06,835 - #9 print
+INFO  15:56:06,835 - #6 (
+INFO  15:56:06,835 - #45 y
+INFO  15:56:06,835 - #7 )
+INFO  15:56:06,836 - #5 ;
+INFO  15:56:06,836 - #10 return
+INFO  15:56:06,836 - #41 0
+INFO  15:56:06,841 - #5 ;
+INFO  15:56:06,841 - #4 }
+INFO  15:56:06,841 - #4 }
+INFO  15:56:06,854 - Deklarisana je promenljiva x na liniji 2 na liniji 2
+INFO  15:56:06,855 - Deklarisana je promenljiva y na liniji 2 na liniji 2
+INFO  15:56:06,855 - Obradjuje se funkcija k na liniji 5
+ERROR 15:56:06,855 - Greska na liniji 5 : Formalni parametar sa imenom p je vec deklarisan.
+INFO  15:56:06,855 - Deklarisana je promenljiva c na liniji 5 na liniji 5
+INFO  15:56:06,855 - Obradjuje se funkcija main na liniji 10
+INFO  15:56:06,855 - Print calls = 0
+ERROR 15:56:06,856 - Parsiranje NIJE uspesno zavrseno!

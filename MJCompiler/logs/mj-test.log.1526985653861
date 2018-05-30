@@ -1,0 +1,45 @@
+INFO  12:38:55,306 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:38:55,337 - #2 program
+INFO  12:38:55,337 - #28 test301
+INFO  12:38:55,337 - #14 const
+INFO  12:38:55,353 - #28 int
+INFO  12:38:55,353 - #28 jedan
+INFO  12:38:55,353 - #12 =
+INFO  12:38:55,353 - #27 1
+INFO  12:38:55,353 - #8 ,
+INFO  12:38:55,353 - #28 dva
+INFO  12:38:55,353 - #12 =
+INFO  12:38:55,353 - #27 2
+INFO  12:38:55,353 - #17 -
+ERROR 12:38:55,353 - 
+Sintaksna greska na liniji 5
+INFO  12:38:55,353 - #5 ;
+INFO  12:38:55,353 - #14 const
+INFO  12:38:55,353 - #28 int
+INFO  12:38:55,353 - #28 pet
+DEBUG 12:38:55,353 - Uspesan oporavak od greske pri deklaraciji konstante.
+INFO  12:38:55,353 - #12 =
+INFO  12:38:55,353 - #27 5
+INFO  12:38:55,353 - #17 -
+ERROR 12:38:55,353 - 
+Sintaksna greska na liniji 6
+INFO  12:38:55,353 - #5 ;
+INFO  12:38:55,353 - #28 int
+INFO  12:38:55,353 - #28 cetiri
+INFO  12:38:55,353 - #17 -
+DEBUG 12:38:55,353 - Uspesan oporavak od greske pri deklaraciji konstante.
+ERROR 12:38:55,353 - 
+Sintaksna greska na liniji 7
+INFO  12:38:55,353 - #8 ,
+INFO  12:38:55,353 - #28 pet
+INFO  12:38:55,353 - #5 ;
+INFO  12:38:55,353 - #28 int
+DEBUG 12:38:55,353 - Uspesan oporavak od greske pri deklaraciji varijable varIdent.
+INFO  12:38:55,353 - #28 tri
+INFO  12:38:55,353 - #11 +
+ERROR 12:38:55,353 - 
+Sintaksna greska na liniji 8
+INFO  12:38:55,353 - #5 ;
+INFO  12:38:55,353 - #28 int
+INFO  12:38:55,353 - #28 niz
+INFO  12:38:55,353 - #15 [

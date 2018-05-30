@@ -1,0 +1,68 @@
+INFO  14:57:46,862 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:57:46,946 - #2 program
+INFO  14:57:46,946 - #45 MJProgram
+INFO  14:57:46,946 - #45 int
+INFO  14:57:46,946 - #45 x
+INFO  14:57:46,962 - #5 ;
+INFO  14:57:46,962 - #45 int
+INFO  14:57:46,962 - #45 y
+INFO  14:57:46,962 - #5 ;
+INFO  14:57:46,962 - #3 {
+INFO  14:57:46,962 - #45 int
+INFO  14:57:46,962 - #45 k
+INFO  14:57:46,962 - #6 (
+INFO  14:57:46,962 - #7 )
+INFO  14:57:46,962 - #45 int
+INFO  14:57:46,962 - #45 c
+INFO  14:57:46,962 - #5 ;
+INFO  14:57:46,962 - #3 {
+INFO  14:57:46,962 - #45 c
+INFO  14:57:46,962 - #12 =
+INFO  14:57:46,962 - #41 1
+INFO  14:57:46,962 - #5 ;
+INFO  14:57:46,962 - #10 return
+INFO  14:57:46,962 - #45 c
+INFO  14:57:46,962 - #11 +
+INFO  14:57:46,962 - #41 2
+INFO  14:57:46,962 - #5 ;
+INFO  14:57:46,962 - #4 }
+INFO  14:57:46,962 - #45 void
+INFO  14:57:46,962 - #45 main
+INFO  14:57:46,962 - #6 (
+INFO  14:57:46,962 - #7 )
+INFO  14:57:46,962 - #3 {
+INFO  14:57:46,962 - #45 y
+INFO  14:57:46,962 - #12 =
+INFO  14:57:46,962 - #41 2
+INFO  14:57:46,962 - #5 ;
+INFO  14:57:46,962 - #45 x
+INFO  14:57:46,962 - #12 =
+INFO  14:57:46,962 - #45 y
+INFO  14:57:46,962 - #11 +
+INFO  14:57:46,962 - #41 2
+INFO  14:57:46,962 - #5 ;
+INFO  14:57:46,962 - #45 y
+INFO  14:57:46,962 - #12 =
+INFO  14:57:46,962 - #45 k
+INFO  14:57:46,962 - #6 (
+INFO  14:57:46,977 - #7 )
+INFO  14:57:46,977 - #11 +
+INFO  14:57:46,977 - #41 3
+INFO  14:57:46,977 - #5 ;
+INFO  14:57:46,977 - #9 print
+INFO  14:57:46,977 - #6 (
+INFO  14:57:46,977 - #45 y
+INFO  14:57:46,977 - #7 )
+INFO  14:57:46,977 - #5 ;
+INFO  14:57:46,977 - #10 return
+INFO  14:57:46,977 - #41 0
+INFO  14:57:46,977 - #5 ;
+INFO  14:57:46,977 - #4 }
+INFO  14:57:46,977 - #4 }
+INFO  14:57:46,993 - Deklarisana je promenljiva x na liniji 2 na liniji 2
+INFO  14:57:46,993 - Deklarisana je promenljiva y na liniji 2 na liniji 2
+INFO  14:57:46,993 - Obradjuje se funkcija k na liniji 5
+INFO  14:57:46,993 - Deklarisana je promenljiva c na liniji 5 na liniji 5
+INFO  14:57:46,993 - Obradjuje se funkcija main na liniji 10
+INFO  14:57:46,993 - Print calls = 0
+INFO  14:57:46,993 - Generating bytecode file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.obj

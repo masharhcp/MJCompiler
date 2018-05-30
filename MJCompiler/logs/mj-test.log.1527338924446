@@ -1,0 +1,86 @@
+INFO  14:43:52,192 - Compiling source file: C:\Users\Masa\Desktop\new material PP\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:43:52,261 - #2 program
+INFO  14:43:52,261 - #45 test301
+INFO  14:43:52,261 - #13 const
+INFO  14:43:52,261 - #45 int
+INFO  14:43:52,261 - #45 jedan
+INFO  14:43:52,261 - #12 =
+INFO  14:43:52,261 - #41 1
+INFO  14:43:52,261 - #5 ;
+INFO  14:43:52,261 - #13 const
+INFO  14:43:52,261 - #45 int
+INFO  14:43:52,261 - #45 pet
+INFO  14:43:52,261 - #12 =
+INFO  14:43:52,261 - #41 5
+INFO  14:43:52,261 - #5 ;
+INFO  14:43:52,261 - #45 int
+INFO  14:43:52,261 - #45 niz
+INFO  14:43:52,261 - #14 [
+INFO  14:43:52,261 - #15 ]
+INFO  14:43:52,261 - #5 ;
+INFO  14:43:52,261 - #45 char
+INFO  14:43:52,293 - #45 nizch
+INFO  14:43:52,293 - #14 [
+INFO  14:43:52,293 - #15 ]
+INFO  14:43:52,293 - #5 ;
+INFO  14:43:52,293 - #3 {
+INFO  14:43:52,293 - #45 void
+INFO  14:43:52,293 - #45 main
+INFO  14:43:52,293 - #6 (
+INFO  14:43:52,293 - #7 )
+INFO  14:43:52,293 - #45 int
+INFO  14:43:52,293 - #45 bodovi
+INFO  14:43:52,293 - #5 ;
+INFO  14:43:52,293 - #3 {
+INFO  14:43:52,293 - #45 bodovi
+INFO  14:43:52,293 - #12 =
+INFO  14:43:52,293 - #41 0
+INFO  14:43:52,293 - #5 ;
+INFO  14:43:52,293 - #45 bodovi
+INFO  14:43:52,293 - #21 ++
+INFO  14:43:52,293 - #5 ;
+INFO  14:43:52,293 - #45 bodovi
+INFO  14:43:52,293 - #12 =
+INFO  14:43:52,293 - #45 bodovi
+INFO  14:43:52,293 - #11 +
+INFO  14:43:52,293 - #45 jedan
+INFO  14:43:52,293 - #5 ;
+INFO  14:43:52,293 - #45 bodovi
+INFO  14:43:52,293 - #12 =
+INFO  14:43:52,293 - #45 bodovi
+INFO  14:43:52,293 - #17 *
+INFO  14:43:52,293 - #45 pet
+INFO  14:43:52,293 - #5 ;
+INFO  14:43:52,293 - #45 bodovi
+INFO  14:43:52,293 - #22 --
+INFO  14:43:52,293 - #5 ;
+INFO  14:43:52,293 - #9 print
+INFO  14:43:52,293 - #6 (
+INFO  14:43:52,293 - #45 bodovi
+INFO  14:43:52,293 - #7 )
+INFO  14:43:52,313 - #5 ;
+INFO  14:43:52,313 - #45 niz
+INFO  14:43:52,313 - #12 =
+INFO  14:43:52,313 - #23 new
+INFO  14:43:52,313 - #45 int
+INFO  14:43:52,313 - #14 [
+INFO  14:43:52,313 - #41 2
+INFO  14:43:52,313 - #15 ]
+INFO  14:43:52,313 - #5 ;
+INFO  14:43:52,314 - #4 }
+INFO  14:43:52,314 - #4 }
+INFO  14:43:52,315 - Deklarisana je konstanta jedan na liniji5 na liniji 5
+INFO  14:43:52,315 - Deklarisana je konstanta pet na liniji6 na liniji 6
+INFO  14:43:52,315 - Deklarisan je niz niz8 na liniji 8
+INFO  14:43:52,315 - Deklarisan je niz nizch10 na liniji 10
+INFO  14:43:52,315 - Obradjuje se funkcija main na liniji 13
+INFO  14:43:52,315 - Deklarisana je promenljiva bodovi na liniji 13
+INFO  14:43:52,330 - Detektovano koriscenje promenljive bodovi na liniji 16
+INFO  14:43:52,330 - Detektovano  inkrementiranje promenljive bodovi na liniji 17
+INFO  14:43:52,330 - Detektovano koriscenje promenljive bodovi na liniji 18
+INFO  14:43:52,330 - Detektovano koriscenje promenljive bodovi na liniji 19
+INFO  14:43:52,330 - Detektovano  dekrementiranje promenljive bodovi na liniji 20
+INFO  14:43:52,330 - Inicijalizovan niz na liniji  na liniji 24
+ERROR 14:43:52,330 - Greska na liniji 24 izraz sa desne strane mora biti kompatibilan po tipu sa promenljivom kojoj se dodeljuje.
+INFO  14:43:52,330 - Print calls = 1
+ERROR 14:43:52,330 - Parsiranje NIJE uspesno zavrseno!
